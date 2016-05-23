@@ -1,0 +1,58 @@
+<alice>
+
+<category>
+<pattern>WHAT IS THE ROC *</pattern>
+<template><srai>BOTFAQ ROC</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS THE ROC</pattern>
+<template><srai>BOTFAQ ROC</srai></template>
+</category>
+
+<category>
+<pattern>WHATS THE ROC *</pattern>
+<template><srai>BOTFAQ ROC</srai></template>
+</category>
+
+<category>
+<pattern>WHATS THE ROC</pattern>
+<template><srai>BOTFAQ ROC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE IS THE ROC *</pattern>
+<template><srai>BOTFAQ WHEREROC</srai></template>
+</category>
+
+<category>
+<pattern>WHERE IS THE ROC</pattern>
+<template><srai>BOTFAQ WHEREROC</srai></template>
+</category>
+
+<category>
+<pattern>WHERES THE ROC *</pattern>
+<template><srai>BOTFAQ WHEREROC</srai></template>
+</category>
+
+<category>
+<pattern>WHERES THE ROC</pattern>
+<template><srai>BOTFAQ WHEREROC</srai></template>
+</category>
+
+
+<category>
+<pattern>BOTFAQ ROC</pattern>
+<template>ROC is an acronym for 'Rules of Conduct', the rules you agreed to abide by when you created your account. Click [url=http://www.darkspace.net/index.htm?&module=document.php&doc_id=2]Here[/url]to be sent to the page.
+</template>
+</category>
+
+<category>
+<pattern>BOTFAQ WHEREROC</pattern>
+<template>The ROC (Rules of Conduct) can be found [url=http://www.darkspace.net/index.htm?&module=document.php&doc_id=2]Here[/url].
+</template>
+</category>
+
+
+
+</alice>

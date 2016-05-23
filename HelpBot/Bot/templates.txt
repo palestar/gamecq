@@ -1,0 +1,295 @@
+FA in an acronym for one of the Fleet Admiral scenario servers.</template>
+<random><li>Nobody has figured that one out. </li><li>Some say an unknown figure living in Faustus' basement </li><li>I have no idea, but I bet it likes cheese.</li></random>  </template>
+<end of file>
+</template>
+<end of file>
+<srai>BOTFAQ GAMEANYGOOD</srai></template>
+<srai>BOTFAQ GAMEANYGOOD</srai></template>
+<srai>BOTFAQ GAMEANYGOOD</srai></template>
+<srai>BOTFAQ GAMEANYGOOD</srai></template>
+<srai>BOTFAQ GAMEANYGOOD</srai></template>
+<srai>BOTFAQ GAMEANYGOOD</srai></template>
+Of course! However, every player has different tastes, and there is absolutely NO subsititute for first-hand experience when it comes to matters of taste. So, give Darkspace a shot. We think you will agree with the vast majority of players you will encounter who have already determined the same answer.</template>
+<end of file>
+<srai>HOWTO <star/></srai></template>
+<srai>HOWTO <star/></srai></template>
+<srai>HOWTO <star/></srai></template>
+<srai>HOWTO <star/></srai></template>
+<srai>BOTFAQ STARTPLAYING</srai></template>
+<srai>BOTFAQ STARTPLAYING</srai></template>
+<srai>BOTFAQ STARTPLAYING</srai></template>
+<srai>BOTFAQ STARTPLAYING</srai></template>
+<srai>BOTFAQ STARTPLAYING</srai></template>
+<srai>BOTFAQ STARTPLAYING</srai></template>
+<srai>BOTFAQ STARTPLAYING</srai></template>
+<srai>BOTFAQ STARTPLAYING</srai></template>
+<srai>BOTFAQ STARTPLAYING</srai></template>
+Click the 'Play' button above followed by choosing a server to play on. If you are not subscribed you will only be allowed to join the servers marked with a red diamond next to it.</template>
+<end of file>
+<srai>BOTFAQ RANKS</srai></template>
+<srai>BOTFAQ RANKS</srai></template>
+<srai>BOTFAQ RANKS</srai></template>
+<srai>BOTFAQ RANKS</srai></template>
+<srai>BOTFAQ RANKS</srai></template>
+<srai>BOTFAQ RANKS</srai></template>
+<srai>BOTFAQ RANKS</srai></template>
+Prestige / Ranks:  0  - Midshipman | 40 - Ensign | 80 - 2nd Lieutenant | 160 - 1st Lieutenant | 320 - Lt. Commander | 640 - Commander | 1280 - Captain | 2560 - 2nd Rear Admiral | 5120 - 1st Rear Admiral | 10240 - Vice Admiral | 20480 - Admiral | 41000 - Fleet Admiral.</template>
+<end of file>
+<srai>BOTFAQ ENGY</srai></template>
+<srai>BOTFAQ ENGY</srai></template>
+<srai>BOTFAQ ENGY</srai></template>
+<srai>BOTFAQ ENGY</srai></template>
+Building a planet is accomplished by orbiting a planet that your faction owns and building structures while in a Engineer ship. While orbiting the planetyou wish to build on, go to the Engineering Windows by pressing F5. The first structure you need to build is the Colony Hub. Next, click on one of the diamonds marked on the planetssurface then click on the Build Colony Hub icon. Read the online manual for more assistance.</template>
+<end of file>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGE</srai></template>
+<srai>BOTFAQ PRESTIGELOOKUP</srai></template>
+<srai>BOTFAQ PRESTIGELOOKUP</srai></template>
+<srai>BOTFAQ FASTPRESTIGE</srai></template>
+<srai>BOTFAQ FASTPRESTIGE</srai></template>
+<srai>BOTFAQ FASTPRESTIGE</srai></template>
+<srai>BOTFAQ FASTPRESTIGE</srai></template>
+<srai>BOTFAQ FASTPRESTIGE</srai></template>
+<srai>BOTFAQ FASTPRESTIGE</srai></template>
+<srai>BOTFAQ FASTPRESTIGE</srai></template>
+<srai>BOTFAQ FASTPRESTIGE</srai></template>
+Unless you have subscribed, you will not be able to gain any prestige. As a demo, your statistics are saved and if you do subscribe your prestige will be adjusted accordingly.</template>
+You can view your prestige by clicking "Profile" from the GCQL menu above. </template>
+There are plenty of ways to gain prestige quickly. Supplying and bombing planets are some great ways to gain prestige. </template>
+<end of file>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+<srai>BOTFAQ COST</srai></template>
+Subscribing to Darkspace costs (US Dollars) $9.99 per month.</template>
+<srai>BOTFAQ PAYING</srai></template>
+<srai>BOTFAQ PAYING</srai></template>
+<srai>BOTFAQ PAYING</srai></template>
+<srai>FAQ PAYING</srai></template>
+You can play without paying, however you will not be able to gain prestige, have access to better ships, and join servers that have a green diamond next their name.</template>
+<end of file>
+<srai>BOTFAQ MOD</srai></template>
+<srai>BOTFAQ MOD</srai></template>
+<srai>BOTFAQ MOD</srai></template>
+<srai>BOTFAQ MOD</srai></template>
+<srai>BOTFAQ MOD</srai></template>
+<srai>BOTFAQ MOD</srai></template>
+<srai>BOTFAQ MAKEMOD</srai></template>
+<srai>BOTFAQ MAKEMOD</srai></template>
+<srai>BOTFAQ MAKEMOD</srai></template>
+<srai>BOTFAQ MAKEMOD</srai></template>
+<srai>BOTFAQ WHOMOD</srai></template>
+<srai>BOTFAQ WHOMOD</srai></template>
+MOD is short for Moderator. Moderators are here to help new players and enforce the Rules of Conduct. Moderators are denoted in the players list with a green icon next to their name.</template>
+You may apply to be a moderator in the Staff Feedback Forum. Generally there is already a thread started to apply.</template>
+Staff members are listed on the website. Check them out at http://www.darkspace.net/staff.htm</template>
+<end of file>
+<srai>BOTFAQ ROC</srai></template>
+<srai>BOTFAQ ROC</srai></template>
+<srai>BOTFAQ ROC</srai></template>
+<srai>BOTFAQ ROC</srai></template>
+<srai>BOTFAQ WHEREROC</srai></template>
+<srai>BOTFAQ WHEREROC</srai></template>
+<srai>BOTFAQ WHEREROC</srai></template>
+<srai>BOTFAQ WHEREROC</srai></template>
+ROC is an acronym for 'Rules of Conduct'. Click [url=http://www.darkspace.net/roc.htm]Here[/url]to be sent to thepage.</template>
+The ROC (Rules of Conduct) can be found  [url=http://www.darkspace.net/roc.htm]Here[/url].</template>
+<end of file>
+<srai>BOTFAQ EAD</srai></template>
+<srai>BOTFAQ EAD</srai></template>
+<srai>BOTFAQ EAD</srai></template>
+<srai>BOTFAQ EAD</srai></template>
+<srai>BOTFAQ EAD</srai></template>
+<srai>BOTFAQ EAD</srai></template>
+EAD is an acronym for the UGTO Elite Assault Dreadnaught.</template>
+<end of file>
+<srai>BOTFAQ BETAJOIN</srai></template>
+<srai>BOTFAQ BETAJOIN</srai></template>
+<srai>BOTFAQ BETAJOIN</srai></template>
+<srai>BOTFAQ BETAJOIN</srai></template>
+<srai>BOTFAQ BETAJOIN</srai></template>
+<srai>BOTFAQ BETAJOIN</srai></template>
+<srai>BOTFAQ BETAJOIN</srai></template>
+<srai>BOTFAQ BETAJOIN</srai></template>
+To play on the beta server, you must first download the beta client from the downloads area. After downloading join the lobby the same as you would with the normal client. Clicking on "Play" should show the beta server that you can join.</template>
+<end of file>
+<srai>BOTFAQ SCREENSHOT</srai></template>
+<srai>BOTFAQ SCREENSHOT</srai></template>
+<srai>BOTFAQ SCREENSHOT</srai></template>
+<srai>BOTFAQ SCREENSHOT</srai></template>
+<srai>BOTFAQ SCREENSHOT</srai></template>
+<srai>BOTFAQ SCREENSHOT</srai></template>
+<srai>BOTFAQ SCREENSHOT</srai></template>
+<srai>BOTFAQ SCREENSHOT</srai></template>
+You can make screenshots by pressing ALT-T while in game. The shots are saved to the Darkspace directory and are in TGA format.</template>
+<end of file>
+<srai>BOTFAQ JOINFLEETCLAN</srai></template>
+<srai>BOTFAQ JOINFLEETCLAN</srai></template>
+<srai>BOTFAQ JOINFLEETCLAN</srai></template>
+<srai>BOTFAQ JOINFLEETCLAN</srai></template>
+If you want to join a fleet, first go to that fleet's home. You can find the list of fleets and the link for their home by heading [url=http://www.darkspace.net/clans.htm]here[/url]. On the fleet's home page you should see a link for "Join Fleet" in the upper right portion of the screen. After initially joining, you will then have to be recruited by an administrator of the Fleet.</template>
+<end of file>
+<srai>BOTFAQ FONTCOLOR</srai></template>
+<srai>BOTFAQ FONTCOLOR</srai></template>
+<srai>BOTFAQ FONTCOLOR</srai></template>
+<srai>BOTFAQ FONTCOLOR</srai></template>
+<srai>BOTFAQ FONTCOLOR</srai></template>
+<srai>BOTFAQ FONTCOLOR</srai></template>
+You can change your font color by clicking on the 'A' to the left of the text box. This will bring up a dialog box with a color spectrum in it. Clicking on the desired color and pressing 'OK' will change the color.</template>
+<end of file>
+<srai>BOTFAQ NAMECHANGE</srai></template>
+<srai>BOTFAQ NAMECHANGE</srai></template>
+<srai>BOTFAQ NAMECHANGE</srai></template>
+<srai>BOTFAQ NAMECHANGE</srai></template>
+<srai>BOTFAQ NAMECHANGE</srai></template>
+<srai>BOTFAQ NAMECHANGE</srai></template>
+You may change your name by clicking on "GameCQ" in the top left corner and then selecting "Change Name".</template>
+<end of file>
+<srai>BOTFAQ EMOTES</srai></template>
+<srai>BOTFAQ EMOTES</srai></template>
+<srai>BOTFAQ EMOTES</srai></template>
+<srai>BOTFAQ EMOTES</srai></template>
+Emotes are used by typing '/me your emote' in the text box. Optionally there are some predefined emotes that can be used by right-clicking on a user from the player list window box, and selecting the emote you wish to use. You can make your own emotes by clicking on 'View', then 'Options'.</template>
+<end of file>
+<srai>BOTFAQ METAVERSE</srai></template>
+<srai>BOTFAQ METAVERSE</srai></template>
+<srai>BOTFAQ METAVERSE</srai></template>
+<srai>BOTFAQ METAVERSE</srai></template>
+<srai>BOTFAQ METAVERSE</srai></template>
+<srai>BOTFAQ METAVERSE</srai></template>
+<srai>BOTFAQ METAVERSE</srai></template>
+<srai>BOTFAQ METAVERSE</srai></template>
+The MetaVerse consists of different star systems, some of these systems are linked together by Jump Gates.These jumpgates let a person fly to other systems at great speed.The systems that are not linked by a Jump Gate can be reached either by using a "long jump" or asking for a Wormhole.</template>
+<end of file>
+<srai>BOTFAQ MISSIONS</srai></template>
+You can request missions in game by holding down 'Ctrl' and pressing 'O'.</template>
+<end of file>
+<srai>BOTFAQ BOMB</srai></template>
+<srai>BOTFAQ BOMB</srai></template>
+Bombing is accomplished by being witing a certain distance from the planet depending upon what faction you are. If you are within range you may select the Planet you wish to bomb and then hit the 'B' key (to release all bombs), or click on which bombs you would like to release. Same applies to within 500 GU, except you may select planetary targets to aim at.</template>
+<end of file>
+<srai>BOTFAQ BETA</srai></template>
+<srai>BOTFAQ BETA</srai></template>
+If you have the beta client, you can help test the release of the next patch if the release is in that stage.</template>
+<end of file>
+<srai>BOTFAQ MANUAL</srai></template>
+<srai>BOTFAQ MANUAL</srai></template>
+<srai>BOTFAQ MANUAL</srai></template>
+<srai>BOTFAQ MANUAL</srai></template>
+The manual can be found [url=http://www.darkspace.net/roc.htm]Here[/url].</template>
+<end of file>
+<srai>BOTFAQ ACTIVATION</srai></template>
+<srai>BOTFAQ ACTIVATION</srai></template>
+<srai>BOTFAQ ACTIVATION</srai></template>
+<srai>BOTFAQ ACTIVATION</srai></template>
+<srai>BOTFAQ ACTIVATION</srai></template>
+<srai>BOTFAQ ACTIVATION</srai></template>
+<srai>BOTFAQ ACTIVATION</srai></template>
+<srai>BOTFAQ ACTIVATION</srai></template>
+Depending your method of payment, activation could take anywhere from immediately to 3-5 business days. If you feel you need further assistance please send email to billing@palestar.com.</template>
+<end of file>
+<srai>BOTFAQ PAYMENT</srai></template>
+<srai>BOTFAQ PAYMENT</srai></template>
+<srai>BOTFAQ PAYMENT</srai></template>
+<srai>BOTFAQ PAYMENT</srai></template>
+<srai>BOTFAQ PAYMENT</srai></template>
+<srai>BOTFAQ PAYMENT</srai></template>
+<srai>BOTFAQ PAYMENT</srai></template>
+<srai>BOTFAQ PAYMENT</srai></template>
+<srai>BOTFAQ PAYMENTMETHODS</srai></template>
+<srai>BOTFAQ PAYMENTMETHODS</srai></template>
+You can play all you want without paying, however you will not be allowed to gain prestige, fly better ships, and join servers listed with a green diamond next to it. </template>
+Click the Subscription link in your profile, and you will be able to select from a variey of different methods of payment.</template>
+<end of file>
+<srai>BOTFAQ JOSEF</srai></template>
+<srai>BOTFAQ JOSEF</srai></template>
+<srai>BOTFAQ JOSEF</srai></template>
+<srai>BOTFAQ JOSEF</srai></template>
+<srai>BOTFAQ JOSEF</srai></template>
+<srai>BOTFAQ JOSEF</srai></template>
+We have been unable to determine who/what Josef is, some say he is the sidekick of a man known as Rogue Spear others say he is the Lonerider.One thing is for sure how ever Josef is a Darkspace Moderator and a good one to.</template>
+<end of file>
+<srai>BOTFAQ COUPON</srai></template>
+<srai>BOTFAQ COUPON</srai></template>
+<srai>BOTFAQ COUPON</srai></template>
+<srai>BOTFAQ COUPON</srai></template>
+A coupon is is an email containing a serial key, this key can be redeemed by entering it in the redeem coupon screen that is located in your profile</template>
+<end of file>
+<srai>BOTFAQ VALIDATE</srai></template>
+<srai>BOTFAQ VALIDATE</srai></template>
+<srai>BOTFAQ VALIDATE</srai></template>
+<srai>BOTFAQ VALIDATE</srai></template>
+There is a [url=http://www.darkspace.net/phpBB/topicredirect.php?topic=23302]Validate Email[/url] topic, there you can read the information that is needed to validate you email.</template>
+<end of file>
+<srai>BOTFAQ USECOUPON</srai></template>
+<srai>BOTFAQ USECOUPON</srai></template>
+<srai>BOTFAQ USECOUPON</srai></template>
+<srai>BOTFAQ USECOUPON</srai></template>
+To redeem a coupon I suggest you follow the instructions on [url=http://www.darkspace.net/phpBB/topicredirect.php?topic=23694]this[/url] site.</template>
+<end of file>
+<srai>BOTFAQ WORMHOLE</srai></template>
+<srai>BOTFAQ WORMHOLE</srai></template>
+<srai>BOTFAQ WORMHOLE</srai></template>
+<srai>BOTFAQ WORMHOLE</srai></template>
+A Wormhole is a player generated Jumpgate that lasts for a certain period of time, the wormhole is made by stations or an ICC Jumpcruiser.By using a wormhole a player is able to travel great distances in an instant.It is mainly used to reach the systems that are not linked to each other by a Jumpgate.</template>
+<end of file>
+<srai>BOTFAQ SHIPYARD</srai></template>
+<srai>BOTFAQ SHIPYARD</srai></template>
+<srai>BOTFAQ SHIPYARD</srai></template>
+<srai>BOTFAQ SHIPYARD</srai></template>
+<srai>BOTFAQ SHIPYARD</srai></template>
+<srai>BOTFAQ SHIPYARD</srai></template>
+<srai>BOTFAQ SHIPYARD</srai></template>
+<srai>BOTFAQ SHIPYARD</srai></template>
+<srai>BOTFAQ SHIPYARD</srai></template>
+<srai>BOTFAQ SHIPYARD</srai></template>
+A ShipYard *SY* is a planetary structure that allows players to spawn ships there, A shipyard is also required to be able to get the bigger kind of ships like cruisers.The Shipyard is of great tactical value as it allows players to spawn near combat hotzones and is usually a common rally point for any kind of assault. </template>
+<end of file>
+<srai>BOTFAQ JUMPGATE</srai></template>
+<srai>BOTFAQ JUMPGATE</srai></template>
+<srai>BOTFAQ JUMPGATE</srai></template>
+<srai>BOTFAQ JUMPGATE</srai></template>
+<srai>BOTFAQ JUMPGATE</srai></template>
+<srai>BOTFAQ JUMPGATE</srai></template>
+A gate or jumpgate as they are called are fast travel nodes that players use to move from one system to another.These gates are fast and free to use, just fly into them.There is also a gate called the HOME gate.This is the original spawn point for each faction, it's located in their home system.Any ship taken from this gate take NO rescources but you can only take ships that are not bigger than a frigate.</template>
+<end of file>

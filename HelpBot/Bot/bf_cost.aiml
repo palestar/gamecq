@@ -1,0 +1,115 @@
+<alice>
+<category>
+<pattern>HOW MUCH DOES THIS GAME *</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+<category>
+<pattern>DOES THIS GAME COST *</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH IS MEMBERSHIP</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH IS MEMBERSHIP *</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH IS A MEMBERSHIP</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH IS A MEMBERSHIP *</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+<category>
+<pattern>DO I HAVE TO PAY FOR THIS GAME</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+
+<category>
+<pattern>DO I HAVE TO PAY FOR THIS GAME *</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH DOES IT COST TO SUBSCRIBE</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH DOES IT COST TO SUBSCRIBE *</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH DOES THIS COST</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+
+<category>
+<pattern>HOW MUCH DOES THIS COST *</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH IS THIS GAME</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH IS THIS GAME *</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS THE COST OF THIS GAME</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS THE COST OF THIS GAME *</pattern>
+<template><srai>BOTFAQ COST</srai></template>
+</category>
+
+
+<category>
+<pattern>BOTFAQ COST</pattern>
+<template>DarkSpace is completely, 100%, free.</template>
+</category>
+
+
+<category>
+<pattern>DO I HAVE TO PAY FOR THIS GAME *</pattern>
+<template><srai>BOTFAQ PAYING</srai></template>
+</category>
+
+<category>
+<pattern>DO I HAVE TO PAY FOR THIS GAME</pattern>
+<template><srai>BOTFAQ PAYING</srai></template>
+</category>
+
+<category>
+<pattern>DO I HAVE TO PAY TO PLAY *</pattern>
+<template><srai>BOTFAQ PAYING</srai></template>
+</category>
+
+<category>
+<pattern>DO I HAVE TO PAY TO PLAY</pattern>
+<template><srai>FAQ PAYING</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ PAYING</pattern>
+<template>You can play without paying for as long as you like, however donations in the forum of subscribing is encouraged, as this helps us pay for server costs. Additionally, every dollar donated earns you credits which (feature pending) can be used to purchase enhancements for your ships.</template>
+</category>
+</alice>

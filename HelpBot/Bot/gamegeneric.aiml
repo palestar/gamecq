@@ -1,0 +1,52 @@
+<alice>
+<category>
+<pattern>* REALLY ANY GOOD</pattern>
+<template><srai><star/> GOOD</srai></template>
+</category>
+<category>
+<pattern>* REALLY GOOD</pattern>
+<template><srai><star/> GOOD</srai></template>
+</category>
+<category>
+<pattern>* ANY GOOD</pattern>
+<template><srai><star/> GOOD</srai></template>
+</category>
+<category>
+<pattern>IS THIS GAME *</pattern>
+<template><srai>IS DARKSPACE <star/></srai></template>
+</category>
+<category>
+<pattern>THIS GAME *</pattern>
+<template><srai>DARKSPACE <star/></srai></template>
+</category>
+<category>
+<pattern>IS THIS *</pattern>
+<template><srai>IS <star/></srai></template>
+</category>
+<category>
+<pattern>IS DARKSPACE GOOD</pattern><that>YES ITS GREAT</that>
+<template>I already said it is, have you read through the forums yet ?</template>
+</category>
+<category>
+<pattern>IS DARKSPACE GOOD</pattern><that>SURE IT IS</that>
+<template>Yes, be sure it is. Have you read through the forums yet ?</template>
+</category>
+<category>
+<pattern>IS DARKSPACE GOOD</pattern><that>OF COURSE IT IS</that>
+<template>You can be really sure it is. Have you read through the forums yet ?</template>
+</category>
+<category>
+<pattern>IS DARKSPACE GOOD</pattern>
+<template>
+<random>
+<li>Yes, it's great</li>
+<li>Sure it is</li>
+<li>Of course it is</li>
+</random>
+</template>
+</category>
+<category>
+<pattern>*</pattern>
+<template>FILTER</template>
+</category>
+</alice>

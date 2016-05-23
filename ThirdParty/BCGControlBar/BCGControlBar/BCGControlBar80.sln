@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BCGControlBar", "BCGControlBar80.vcproj", "{86458A7D-3A14-4A81-B7E0-5CEC3AE54219}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Unicode Debug|Win32 = Unicode Debug|Win32
+		Unicode Release|Win32 = Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86458A7D-3A14-4A81-B7E0-5CEC3AE54219}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86458A7D-3A14-4A81-B7E0-5CEC3AE54219}.Debug|Win32.Build.0 = Debug|Win32
+		{86458A7D-3A14-4A81-B7E0-5CEC3AE54219}.Release|Win32.ActiveCfg = Release|Win32
+		{86458A7D-3A14-4A81-B7E0-5CEC3AE54219}.Release|Win32.Build.0 = Release|Win32
+		{86458A7D-3A14-4A81-B7E0-5CEC3AE54219}.Unicode Debug|Win32.ActiveCfg = Unicode Debug|Win32
+		{86458A7D-3A14-4A81-B7E0-5CEC3AE54219}.Unicode Debug|Win32.Build.0 = Unicode Debug|Win32
+		{86458A7D-3A14-4A81-B7E0-5CEC3AE54219}.Unicode Release|Win32.ActiveCfg = Unicode Release|Win32
+		{86458A7D-3A14-4A81-B7E0-5CEC3AE54219}.Unicode Release|Win32.Build.0 = Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+<alice>
+
+<category>
+<pattern>WHAT IS FA</pattern>
+<template>FA in an acronym. Depending on context, it refers to the old Fleet Admiral scenario servers, the Fleet Admiral rank, or a fleet administrator.</template>
+</category>
+
+<category>
+<pattern>WHAT IS A NIMBY</pattern>
+<template>
+<random>
+<li>Nobody has figured that one out. </li>
+<li>Some say an unknown figure living in Faustus' basement.</li>
+<li>I have no idea, but I bet it likes cheese.</li>
+</random>  
+</template>
+</category>
+
+</alice>

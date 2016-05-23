@@ -1,0 +1,27 @@
+<alice>
+<category>
+<pattern>HOWTO JOIN A FLEET</pattern>
+<template><srai>BOTFAQ JOINFLEETCLAN</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO JOIN A FLEET *</pattern>
+<template><srai>BOTFAQ JOINFLEETCLAN</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO JOIN A CLAN</pattern>
+<template><srai>BOTFAQ JOINFLEETCLAN</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO JOIN A CLAN *</pattern>
+<template><srai>BOTFAQ JOINFLEETCLAN</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ JOINFLEETCLAN</pattern>
+<template>If you want to join a fleet, go to that fleet's home. You can find the list of fleets and a link to their home page by going [url=http://www.darkspace.net/index.htm?module=clans.php]here[/url]. If you are subscribed, and a fleet is accepting new recruits, on the fleet's home page you should see a "[Join Fleet]" link in the upper right portion of the screen. After initially joining, you will then have to be recruited by an administrator of the fleet.
+</template>
+</category>
+</alice>

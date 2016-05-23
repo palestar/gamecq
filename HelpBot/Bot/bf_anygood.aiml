@@ -1,0 +1,39 @@
+<alice>
+
+<category>
+<pattern>IS THIS GAME ANY GOOD</pattern>
+<template><srai>BOTFAQ GAMEANYGOOD</srai></template>
+</category>
+
+<category>
+<pattern>IS THIS GAME ANY GOOD *</pattern>
+<template><srai>BOTFAQ GAMEANYGOOD</srai></template>
+</category>
+
+<category>
+<pattern>IS THIS GAME GOOD</pattern>
+<template><srai>BOTFAQ GAMEANYGOOD</srai></template>
+</category>
+
+<category>
+<pattern>IS THIS GAME GOOD *</pattern>
+<template><srai>BOTFAQ GAMEANYGOOD</srai></template>
+</category>
+
+<category>
+<pattern>THIS GAME GOOD</pattern>
+<template><srai>BOTFAQ GAMEANYGOOD</srai></template>
+</category>
+
+<category>
+<pattern>THIS GAME ANY GOOD</pattern>
+<template><srai>BOTFAQ GAMEANYGOOD</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ GAMEANYGOOD</pattern>
+<template>Of course! However, every player has different tastes, and there is absolutely NO subsititute for first-hand experience when it comes to matters of taste. So, give DarkSpace a shot. We think you will agree with the vast majority of players you will encounter who have already determined the same answer.
+</template>
+</category>
+</alice>
+

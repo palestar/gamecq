@@ -1,0 +1,51 @@
+<alice>
+
+<category>
+<pattern>HOW LONG DOES ACTIVATION TAKE</pattern>
+<template><srai>BOTFAQ ACTIVATION</srai></template>
+</category>
+
+<category>
+<pattern>HOW LONG DOES ACTIVATION TAKE *</pattern>
+<template><srai>BOTFAQ ACTIVATION</srai></template>
+</category>
+
+<category>
+<pattern>HOW LONG DOES IT TAKE FOR MY ACCOUNT TO ACTIVATE</pattern>
+<template><srai>BOTFAQ ACTIVATION</srai></template>
+</category>
+
+<category>
+<pattern>HOW LONG DOES IT TAKE FOR MY ACCOUNT TO ACTIVATE *</pattern>
+<template><srai>BOTFAQ ACTIVATION</srai></template>
+</category>
+
+<category>
+<pattern>HOW LONG DOES IT TAKE TO ACTIVATE MY ACCOUNT</pattern>
+<template><srai>BOTFAQ ACTIVATION</srai></template>
+</category>
+
+<category>
+<pattern>HOW LONG DOES IT TAKE TO ACTIVATE MY ACCOUNT *</pattern>
+<template><srai>BOTFAQ ACTIVATION</srai></template>
+</category>
+
+
+<category>
+<pattern>HOW LONG DOES ACCOUNT ACTIVATION</pattern>
+<template><srai>BOTFAQ ACTIVATION</srai></template>
+</category>
+
+<category>
+<pattern>HOW LONG DOES ACCOUNT ACTIVATION *</pattern>
+<template><srai>BOTFAQ ACTIVATION</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ ACTIVATION</pattern>
+<template>Depending on your method of payment, activation could 
+take anywhere from immediately to 3-5 business days. If you feel 
+you need further assistance please send an email to billing@palestar.com.
+</template>
+</category>
+</alice>

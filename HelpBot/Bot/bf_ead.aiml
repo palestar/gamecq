@@ -1,0 +1,37 @@
+<alice>
+<category>
+<pattern>WHAT IS A EAD</pattern>
+<template><srai>BOTFAQ EAD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS AN EAD</pattern>
+<template><srai>BOTFAQ EAD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A EAD *</pattern>
+<template><srai>BOTFAQ EAD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS AN EAD *</pattern>
+<template><srai>BOTFAQ EAD</srai></template>
+</category>
+
+<category>
+<pattern>WHATS A EAD</pattern>
+<template><srai>BOTFAQ EAD</srai></template>
+</category>
+
+<category>
+<pattern>WHATS AN EAD</pattern>
+<template><srai>BOTFAQ EAD</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ EAD</pattern>
+<template>EAD is an acronym for the UGTO Elite Assault Dreadnaught.
+</template>
+</category>
+</alice>

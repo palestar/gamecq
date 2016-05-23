@@ -1,0 +1,36 @@
+<alice>
+<category>
+<pattern>HOWTO CHANGE MY FONT COLOR</pattern>
+<template><srai>BOTFAQ FONTCOLOR</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO CHANGE MY FONT COLOR *</pattern>
+<template><srai>BOTFAQ FONTCOLOR</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO CHANGE MY TEXT COLOR</pattern>
+<template><srai>BOTFAQ FONTCOLOR</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO CHANGE MY TEXT COLOR *</pattern>
+<template><srai>BOTFAQ FONTCOLOR</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO CHANGE MY COLOR</pattern>
+<template><srai>BOTFAQ FONTCOLOR</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO CHANGE MY COLOR *</pattern>
+<template><srai>BOTFAQ FONTCOLOR</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ FONTCOLOR</pattern>
+<template>You can change your font color by clicking on the 'T' to the right of the text box. This will bring up a dialog box with a color spectrum in it. Clicking on the desired color and pressing 'OK' will change the color. Please try to avoid colors that are too dark, as they can be difficult to read against the black background.</template>
+</category>
+</alice>

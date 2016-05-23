@@ -1,0 +1,47 @@
+<alice>
+<category>
+<pattern>HOWTO JOIN BETA *</pattern>
+<template><srai>BOTFAQ BETAJOIN</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO JOIN BETA</pattern>
+<template><srai>BOTFAQ BETAJOIN</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO PLAY ON BETA *</pattern>
+<template><srai>BOTFAQ BETAJOIN</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO PLAY ON BETA</pattern>
+<template><srai>BOTFAQ BETAJOIN</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO JOIN THE BETA *</pattern>
+<template><srai>BOTFAQ BETAJOIN</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO JOIN THE BETA</pattern>
+<template><srai>BOTFAQ BETAJOIN</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO PLAY ON THE BETA *</pattern>
+<template><srai>BOTFAQ BETAJOIN</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO PLAY ON THE BETA</pattern>
+<template><srai>BOTFAQ BETAJOIN</srai></template>
+</category>
+
+
+<category>
+<pattern>BOTFAQ BETAJOIN</pattern>
+<template>To play on the beta server, you must first install 'DarkSpace (Beta)' from the Launch tab in the lobby. After downloading, click the "Servers tab", press the Filter button and select DarkSpace (Beta). You can then connect to the beta server as you would a regular server.</template>
+</category>
+</alice>

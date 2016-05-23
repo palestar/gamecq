@@ -1,0 +1,44 @@
+<alice>
+
+<category>
+<pattern>WHAT IS THE RANK FOR *</pattern>
+<template><srai>BOTFAQ RANKS</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS THE PRESTIGE REQ *</pattern>
+<template><srai>BOTFAQ RANKS</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH PRESTIGE DO I NEED FOR *</pattern>
+<template><srai>BOTFAQ RANKS</srai></template>
+</category>
+
+<category>
+<pattern>HOW MUCH PRESTIGE FOR *</pattern>
+<template><srai>BOTFAQ RANKS</srai></template>
+</category>
+
+<category>
+<pattern>WHAT PRESTIGE DO I NEED FOR *</pattern>
+<template><srai>BOTFAQ RANKS</srai></template>
+</category>
+
+<category>
+<pattern>WHAT ARE THE RANK REQUIREMENTS</pattern>
+<template><srai>BOTFAQ RANKS</srai></template>
+</category>
+
+<category>
+<pattern>WHAT ARE * RANK REQ</pattern>
+<template><srai>BOTFAQ RANKS</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ RANKS</pattern>
+<template>Prestige & Ranks:  0  - Midshipman | 40 - Ensign | 80 - 2nd Lieutenant | 160 - 1st Lieutenant | 320 - Lt. Commander | 640 - Commander | 1280 - Captain | 2560 - 2nd Rear Admiral | 5120 - 1st Rear Admiral | 10240 - Vice Admiral | 20480 - Admiral | 40960 - Fleet Admiral  | 81920- Grand Admiral | 163840 - Marshal | 327680 - Chief Marshal.
+</template>
+</category>
+</alice>
+

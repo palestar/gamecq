@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Web", "http://www1.palestar.com/gamecq/Web.vbproj", "{4ABC4FDA-7E38-4B7C-A2B3-1778AB68DBA8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4ABC4FDA-7E38-4B7C-A2B3-1778AB68DBA8}.Debug.ActiveCfg = Debug|.NET
+		{4ABC4FDA-7E38-4B7C-A2B3-1778AB68DBA8}.Debug.Build.0 = Debug|.NET
+		{4ABC4FDA-7E38-4B7C-A2B3-1778AB68DBA8}.Release.ActiveCfg = Release|.NET
+		{4ABC4FDA-7E38-4B7C-A2B3-1778AB68DBA8}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

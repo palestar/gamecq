@@ -1,0 +1,28 @@
+<alice>
+
+<category>
+<pattern>HOW DO I VALIDATE MY EMAIL</pattern>
+<template><srai>BOTFAQ VALIDATE</srai></template>
+</category>
+
+<category>
+<pattern>HOW DO I VALIDATE MY EMAIL * </pattern>
+<template><srai>BOTFAQ VALIDATE</srai></template>
+</category>
+
+<category>
+<pattern>HOW DO I VALIDATE MY EMAIL ADDRESS</pattern>
+<template><srai>BOTFAQ VALIDATE</srai></template>
+</category>
+
+<category>
+<pattern>HOW DO I VALIDATE MY EMAIL ADDRESS * </pattern>
+<template><srai>BOTFAQ VALIDATE</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ VALIDATE</pattern>
+<template>There is a [url=http://www.darkspace.net/index.htm?module=forums.php&page=/viewtopic.php?topic=23302&forum=13&6]Validate Email[/url] topic, there you can read the information that is needed to validate you email.
+</template>
+</category>
+</alice>

@@ -1,0 +1,73 @@
+<alice>
+
+<category>
+<pattern>HOW DO I *</pattern>
+<template><srai>HOWTO <star/></srai></template>
+</category>
+
+<category>
+<pattern>HOW TO *</pattern>
+<template><srai>HOWTO <star/></srai></template>
+</category>
+
+<category>
+<pattern>HOW CAN I *</pattern>
+<template><srai>HOWTO <star/></srai></template>
+</category>
+
+<category>
+<pattern>HOW DO YOU *</pattern>
+<template><srai>HOWTO <star/></srai></template>
+</category>
+
+<category>
+<pattern>HOWTO PLAY</pattern>
+<template><srai>BOTFAQ STARTPLAYING</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO START PLAYING</pattern>
+<template><srai>BOTFAQ STARTPLAYING</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO START PLAYING THIS GAME</pattern>
+<template><srai>BOTFAQ STARTPLAYING</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO PLAY THIS GAME</pattern>
+<template><srai>BOTFAQ STARTPLAYING</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO PLAY THIS GAME *</pattern>
+<template><srai>BOTFAQ STARTPLAYING</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO JOIN A GAME</pattern>
+<template><srai>BOTFAQ STARTPLAYING</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO JOIN A GAME *</pattern>
+<template><srai>BOTFAQ STARTPLAYING</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO JOIN A SERVER *</pattern>
+<template><srai>BOTFAQ STARTPLAYING</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO JOIN A SERVER</pattern>
+<template><srai>BOTFAQ STARTPLAYING</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ STARTPLAYING</pattern>
+<template>Click the 'Servers' tab, and select a server. Double-clicking a server's name, or pressing the 'Connect' button with a server selected will join that server. If it is your first time playing, some updates will likely be downloaded, please wait patiently for them to finish.
+</template>
+</category>
+</alice>

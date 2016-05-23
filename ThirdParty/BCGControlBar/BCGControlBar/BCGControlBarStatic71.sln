@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BCGControlBarStatic", "BCGControlBarStatic71.vcproj", "{B231B628-8953-4E0C-A63F-B824E60B1831}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectUniqueName0 = BCGControlBarStatic71.vcproj
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {013D9204-BEFD-4FAA-90C6-19A65FF8A345}
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug MFC Shared = Debug MFC Shared
+		Release = Release
+		Release MFC Shared = Release MFC Shared
+		Unicode Debug = Unicode Debug
+		Unicode Debug MFC Shared = Unicode Debug MFC Shared
+		Unicode Release = Unicode Release
+		Unicode Release MFC Shared = Unicode Release MFC Shared
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Debug.ActiveCfg = Debug|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Debug.Build.0 = Debug|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Debug MFC Shared.ActiveCfg = Debug MFC Shared|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Debug MFC Shared.Build.0 = Debug MFC Shared|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Release.ActiveCfg = Release|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Release.Build.0 = Release|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Release MFC Shared.ActiveCfg = Release MFC Shared|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Release MFC Shared.Build.0 = Release MFC Shared|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Unicode Debug.ActiveCfg = Unicode Debug|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Unicode Debug.Build.0 = Unicode Debug|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Unicode Debug MFC Shared.ActiveCfg = Unicode Debug MFC Shared|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Unicode Debug MFC Shared.Build.0 = Unicode Debug MFC Shared|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Unicode Release.ActiveCfg = Unicode Release|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Unicode Release.Build.0 = Unicode Release|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Unicode Release MFC Shared.ActiveCfg = Unicode Release MFC Shared|Win32
+		{B231B628-8953-4E0C-A63F-B824E60B1831}.Unicode Release MFC Shared.Build.0 = Unicode Release MFC Shared|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

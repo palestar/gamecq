@@ -1,0 +1,47 @@
+<alice>
+<category>
+<pattern>WHAT IS A METAVERSE</pattern>
+<template><srai>BOTFAQ METAVERSE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A METAVERSE * </pattern>
+<template><srai>BOTFAQ METAVERSE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A MV</pattern>
+<template><srai>BOTFAQ METAVERSE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A MV * </pattern>
+<template><srai>BOTFAQ METAVERSE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS THE METAVERSE</pattern>
+<template><srai>BOTFAQ METAVERSE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS THE METAVERSE * </pattern>
+<template><srai>BOTFAQ METAVERSE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS THE MV</pattern>
+<template><srai>BOTFAQ METAVERSE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS THE MV * </pattern>
+<template><srai>BOTFAQ METAVERSE</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ METAVERSE</pattern>
+<template>The MetaVerse is a persistant universe that consists of different star systems, some of these systems are linked together by Jump Gates. These jumpgates let a person fly to other systems at great speed. The systems that are not linked by a Jump Gate can be reached either by using a "long jump" if you have enough fuel.
+</template>
+</category>
+</alice>

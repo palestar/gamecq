@@ -1,0 +1,28 @@
+<alice>
+
+<category>
+<pattern>WHAT IS A WORMHOLE</pattern>
+<template><srai>BOTFAQ WORMHOLE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A WORMHOLE * </pattern>
+<template><srai>BOTFAQ WORMHOLE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A WH</pattern>
+<template><srai>BOTFAQ WORMHOLE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A WH * </pattern>
+<template><srai>BOTFAQ WORMHOLE</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ WORMHOLE</pattern>
+<template>A Wormhole is a type of player-generated Jumpgate that lasts for a sort period of time. The wormhole is made by stations equipped with a wormhole device, rather than a normal jumpdrive. By using a wormhole a player is able to travel great distances in an instant.
+</template>
+</category>
+</alice>

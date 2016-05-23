@@ -1,0 +1,32 @@
+<alice>
+
+<category>
+<pattern>HOWTO BUILD *</pattern>
+<template><srai>BOTFAQ ENGY</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO BUILD</pattern>
+<template><srai>BOTFAQ ENGY</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO ENGINEER *</pattern>
+<template><srai>BOTFAQ ENGY</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO ENGINEER</pattern>
+<template><srai>BOTFAQ ENGY</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ ENGY</pattern>
+<template>Building a planet is accomplished by orbiting a planet that your 
+faction owns and building structures while in a Engineer ship. While orbiting the planet
+you wish to build on, go to the Engineering Windows by pressing F3. The first structure you 
+need to build is the Colony Hub. Next, click on one of the diamonds marked on the planets
+surface then click on the Build Colony Hub icon. Read the online manual for more assistance, or veiw the Tactics&New Players forum for in-depth building guides.
+</template>
+</category>
+</alice>

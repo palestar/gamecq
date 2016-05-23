@@ -1,0 +1,65 @@
+<alice>
+
+<category>
+<pattern>DO I HAVE TO PAY FOR THIS GAME</pattern>
+<template><srai>BOTFAQ PAYMENT</srai></template>
+</category>
+
+<category>
+<pattern>DO I HAVE TO PAY FOR THIS GAME *</pattern>
+<template><srai>BOTFAQ PAYMENT</srai></template>
+</category>
+
+<category>
+<pattern>IS THIS GAME FREE</pattern>
+<template><srai>BOTFAQ PAYMENT</srai></template>
+</category>
+
+<category>
+<pattern>IS THIS GAME FREE *</pattern>
+<template><srai>BOTFAQ PAYMENT</srai></template>
+</category>
+
+<category>
+<pattern>DO I NEED TO PAY TO PLAY THIS GAME</pattern>
+<template><srai>BOTFAQ PAYMENT</srai></template>
+</category>
+
+<category>
+<pattern>DO I NEED TO PAY TO PLAY THIS GAME *</pattern>
+<template><srai>BOTFAQ PAYMENT</srai></template>
+</category>
+
+<category>
+<pattern>DO I HAVE TO PAY TO PLAY THIS GAME</pattern>
+<template><srai>BOTFAQ PAYMENT</srai></template>
+</category>
+
+<category>
+<pattern>DO I HAVE TO PAY TO PLAY THIS GAME *</pattern>
+<template><srai>BOTFAQ PAYMENT</srai></template>
+</category>
+
+<category>
+<pattern>WHAT PAYMENT METHODS ARE THERE</pattern>
+<template><srai>BOTFAQ PAYMENTMETHODS</srai></template>
+</category>
+
+<category>
+<pattern>WHAT PAYMENT METHODS ARE THERE *</pattern>
+<template><srai>BOTFAQ PAYMENTMETHODS</srai></template>
+</category>
+
+
+<category>
+<pattern>BOTFAQ PAYMENT</pattern>
+<template>You can play all you want without paying, however donations in the forum of subscribing is encouraged, as this helps us pay for server costs. Additionally, every dollar donated earns you credits which (feature pending) can be used to purchase enhancements for your ships
+</template>
+</category>
+
+<category>
+<pattern>BOTFAQ PAYMENTMETHODS</pattern>
+<template>Click the Subscription link in your profile, and you will be able to select from a variey of different methods of payment.</template>
+</category>
+
+</alice>

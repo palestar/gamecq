@@ -1,0 +1,28 @@
+<alice>
+
+<category>
+<pattern>HOW DO I REDEEM A COUPON</pattern>
+<template><srai>BOTFAQ USECOUPON</srai></template>
+</category>
+
+<category>
+<pattern>HOW DO I REDEEM A COUPON * </pattern>
+<template><srai>BOTFAQ USECOUPON</srai></template>
+</category>
+
+<category>
+<pattern>HOW DO I USE A COUPON</pattern>
+<template><srai>BOTFAQ USECOUPON</srai></template>
+</category>
+
+<category>
+<pattern>HOW DO I USE A COUPON * </pattern>
+<template><srai>BOTFAQ USECOUPON</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ USECOUPON</pattern>
+<template>To redeem a coupon, I suggest you follow the instructions in [url=http://darkspace.net/index.htm?module=forums.php&page=/viewtopic.php?topic=23694&forum=13&0]this[/url] thread.
+</template>
+</category>
+</alice>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Cache Directory=".Cache\">
+	<Program Name="DarkSpace" Description="DarkSpace" Executable="DarkSpace\DarkSpaceClient.exe" 
+		CommandLine="$ADDRESS $PORT $SID" NeedServer=1 Mirror="mirror-server.palestar.com:9101" Directory="DarkSpace\" 
+		ServerType="3" LobbyId="1" Category="Games" />
+	<Program Name="DarkSpaceSetup" Description="DarkSpace Setup" Executable="DarkSpace\DarkSpaceSetup.exe" 
+		CommandLine="" Depends="DarkSpace" Directory="DarkSpace\" LobbyId="1" Category="Games" TrackProcess=0 />
+	<Program Name="DarkSpaceTutorial" Description="DarkSpace Tutorial" Executable="DarkSpace\DarkSpaceClient.exe" 
+		CommandLine="-tutorial" Depends="DarkSpace" Directory="DarkSpace\" LobbyId="1" Category="Games" />
+
+	<Program Name="DarkSpaceBeta" Description="DarkSpace (Beta)" Executable="DarkSpaceBeta\DarkSpaceClient.exe" 
+		CommandLine="$ADDRESS $PORT $SID" NeedServer=1 Mirror="mirror-server.palestar.com:9102" Directory="DarkSpaceBeta\" 
+		ServerType="3" LobbyId="2" Category="Games" />
+	<Program Name="DarkSpaceSetupBeta" Description="DarkSpace Setup (Beta)" Executable="DarkSpaceBeta\DarkSpaceSetup.exe" 
+		CommandLine="" Depends="DarkSpaceBeta" Directory="DarkSpaceBeta\" LobbyId="2" Category="Games" TrackProcess=0 />
+	<Program Name="DarkSpaceTutorialBeta" Description="DarkSpace Tutorial (Beta)" Executable="DarkSpaceBeta\DarkSpaceClient.exe" 
+		CommandLine="-tutorial" Depends="DarkSpaceBeta" Directory="DarkSpaceBeta\" LobbyId="2" Category="Games" />
+		
+	<Program Name="Resourcer" Executable="Resourcer\Resourcer.exe" Description="Resourcer"
+		Mirror="mirror-server.palestar.com:9103" Directory="Resourcer\" UserFlags="2048" LobbyId="2" Category="Tools" TrackProcess=0 />
+	<Program Name="ProfilerClient" Executable="Resourcer\ProfilerClient.exe" CommandLine="$ADDRESS $PORT"
+		Description="Profiler Client" Depends="Resourcer" Directory="Resourcer\"
+		ServerType="7" UserFlags="2048" LobbyId="0"  Category="Tools" NeedServer=1 TrackProcess=0 />
+	<Program Name="ProcessClient" Executable="Resourcer\ProcessClient.exe" CommandLine="$ADDRESS $PORT $SID"
+		Description="Process Client" Depends="Resourcer" Directory="Resourcer\"
+		ServerType="5" UserFlags="1" LobbyId="0"  Category="Tools" NeedServer=1 TrackProcess=0 />
+</Cache>

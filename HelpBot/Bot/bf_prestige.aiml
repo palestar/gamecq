@@ -1,0 +1,223 @@
+<alice>
+
+<category>
+<pattern>HOWTO GAIN PRESTIGE</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO GAIN PRESTIGE *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO EARN PRESTIGE</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO EARN PRESTIGE *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO GET PRESTIGE</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO GET PRESTIGE *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO MAKE PRESTIGE</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO MAKE PRESTIGE *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY IS MY ACCOUNT A DEMO</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY IS MY ACCOUNT A DEMO *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY IS MY PRESTIGE 0</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY IS MY PRESTIGE 0 *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY IS MY PRESTIGE ZERO</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY IS MY PRESTIGE ZERO *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY CANT I GAIN PRESTIGE</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY CANT I GAIN PRESTIGE *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY CANT I GAIN ANY PRESTIGE</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY CANT I GAIN ANY PRESTIGE *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY DONT I GAIN PRESTIGE</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY DONT I GAIN PRESTIGE *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY DONT I GAIN ANY PRESTIGE</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY DONT I GAIN ANY PRESTIGE *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY CANT I GET PRESTIGE</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY CANT I GET PRESTIGE *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY CANT I GET ANY PRESTIGE</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY CANT I GET ANY PRESTIGE *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY DONT I GET PRESTIGE</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY DONT I GET PRESTIGE *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY DONT I GET ANY PRESTIGE</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHY DONT I GET ANY PRESTIGE *</pattern>
+<template><srai>BOTFAQ PRESTIGE</srai></template>
+</category>
+
+
+<category>
+<pattern>HOWTO LOOK UP PRESTIGE</pattern>
+<template><srai>BOTFAQ PRESTIGELOOKUP</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO LOOK UP PRESTIGE *</pattern>
+<template><srai>BOTFAQ PRESTIGELOOKUP</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS THE SIMPLEST WAY TO GET PRESTIGE</pattern>
+<template><srai>BOTFAQ FASTPRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS THE SIMPLEST WAY TO GET PRESTIGE *</pattern>
+<template><srai>BOTFAQ FASTPRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS THE SIMPLEST WAY TO GAIN PRESTIGE</pattern>
+<template><srai>BOTFAQ FASTPRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS THE SIMPLEST WAY TO GAIN PRESTIGE *</pattern>
+<template><srai>BOTFAQ FASTPRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS THE SIMPLEST WAY TO GAIN PRESTIGE</pattern>
+<template><srai>BOTFAQ FASTPRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS THE SIMPLEST WAY TO GAIN PRESTIGE *</pattern>
+<template><srai>BOTFAQ FASTPRESTIGE</srai></template>
+</category>
+
+
+<category>
+<pattern>HOWTO GAIN PRESTIGE QUICKLY</pattern>
+<template><srai>BOTFAQ FASTPRESTIGE</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO GAIN PRESTIGE QUICKLY *</pattern>
+<template><srai>BOTFAQ FASTPRESTIGE</srai></template>
+</category>
+
+
+
+<category>
+<pattern>BOTFAQ PRESTIGE</pattern>
+<template>Unless you have subscribed, you will not be able to gain any amount of prestige over 10239, the rank of 1st Rear Admiral. In addition, some servers may have rank limits imposed that will prevent you from gaining prestige over a certain level.</template>
+</category>
+
+<category>
+<pattern>BOTFAQ PRESTIGELOOKUP</pattern>
+<template>You can view your prestige by clicking the "Profile" button on the Browser tab of the lobby, the [url=http://www.darkspace.net/index.htm?module=profile.php]Profile[/url] web link, or pressing F5 while in-game.</template>
+</category>
+
+<category>
+<pattern>BOTFAQ FASTPRESTIGE</pattern>
+<template>There are plenty of ways to gain prestige quickly. Supplying, building, and bombing planets are some great ways to gain prestige. It always goes faster if you just have fun and enjoy the game.</template>
+</category>
+
+
+</alice>

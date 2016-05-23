@@ -1,0 +1,28 @@
+<alice>
+
+<category>
+<pattern>WHAT IS A COUPON</pattern>
+<template><srai>BOTFAQ COUPON</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A COUPON * </pattern>
+<template><srai>BOTFAQ COUPON</srai></template>
+</category>
+
+<category>
+<pattern>HOW DO I GET A COUPON</pattern>
+<template><srai>BOTFAQ COUPON</srai></template>
+</category>
+
+<category>
+<pattern>HOW DO I GET A COUPON * </pattern>
+<template><srai>BOTFAQ COUPON</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ COUPON</pattern>
+<template>A coupon is is an email containing a serial key that can be redeemed for extra subscription time or prestege. This key can be redeemed by entering it in the redeem coupon screen that is located in your profile. Coupons may be given out as prizes for community events or as compensation for unexpected server downtime.
+</template>
+</category>
+</alice>

@@ -1,0 +1,38 @@
+<alice>
+
+<category>
+<pattern>WHO IS JOSEF</pattern>
+<template><srai>BOTFAQ JOSEF</srai></template>
+</category>
+
+<category>
+<pattern>WHO IS JOSEF * </pattern>
+<template><srai>BOTFAQ JOSEF</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS JOSEF</pattern>
+<template><srai>BOTFAQ JOSEF</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS JOSEF * </pattern>
+<template><srai>BOTFAQ JOSEF</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A JOSEF</pattern>
+<template><srai>BOTFAQ JOSEF</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A JOSEF * </pattern>
+<template><srai>BOTFAQ JOSEF</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ JOSEF</pattern>
+<template>We have been unable to determine who or what Josef is, some say he is the sidekick of a man known as Rogue Spear, others say he is the Lonerider. One thing is for sure however, Josef is a Darkspace Moderator and a good one too.
+</template>
+</category>
+</alice>

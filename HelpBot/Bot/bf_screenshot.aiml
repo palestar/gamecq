@@ -1,0 +1,48 @@
+<alice>
+<category>
+<pattern>HOWTO MAKE SCREENSHOTS</pattern>
+<template><srai>BOTFAQ SCREENSHOT</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO MAKE A SCREENSHOT</pattern>
+<template><srai>BOTFAQ SCREENSHOT</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO MAKE SCREENSHOTS *</pattern>
+<template><srai>BOTFAQ SCREENSHOT</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO MAKE A SCREENSHOT *</pattern>
+<template><srai>BOTFAQ SCREENSHOT</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO DO SCREENSHOTS</pattern>
+<template><srai>BOTFAQ SCREENSHOT</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO DO SCREENSHOTS *</pattern>
+<template><srai>BOTFAQ SCREENSHOT</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO DO A SCREENSHOT</pattern>
+<template><srai>BOTFAQ SCREENSHOT</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO DO A SCREENSHOT *</pattern>
+<template><srai>BOTFAQ SCREENSHOT</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ SCREENSHOT</pattern>
+<template>You can make screenshots by pressing ALT+T while in game. The shots are saved to the Darkspace\.cache\Darkspace\ directory and are in TGA format.
+</template>
+</category>
+</alice>
+

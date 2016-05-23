@@ -1,0 +1,58 @@
+<alice>
+
+<category>
+<pattern>WHAT IS A SHIPYARD</pattern>
+<template><srai>BOTFAQ SHIPYARD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A SHIPYARD * </pattern>
+<template><srai>BOTFAQ SHIPYARD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A SY</pattern>
+<template><srai>BOTFAQ SHIPYARD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A SY * </pattern>
+<template><srai>BOTFAQ SHIPYARD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT DOES SY MEAN</pattern>
+<template><srai>BOTFAQ SHIPYARD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT DOES SY MEAN * </pattern>
+<template><srai>BOTFAQ SHIPYARD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT DOES A SY DO</pattern>
+<template><srai>BOTFAQ SHIPYARD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT DOES A SY DO * </pattern>
+<template><srai>BOTFAQ SHIPYARD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT DOES A SHIPYARD DO</pattern>
+<template><srai>BOTFAQ SHIPYARD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT DOES A SHIPYARD DO * </pattern>
+<template><srai>BOTFAQ SHIPYARD</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ SHIPYARD</pattern>
+<template>A ShipYard (SY) is a planetary structure that allows players to spawn ships there, A shipyard is also required to be able to get bigger kind of ships like cruisers. The Shipyard is of great tactical value as it allows players to spawn near combat hotzones and is usually a common rally point for any kind of assault. 
+</template>
+</category>
+</alice>

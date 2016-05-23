@@ -1,0 +1,4 @@
+bt full
+thread apply all bt full
+quit
+

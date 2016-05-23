@@ -1,0 +1,38 @@
+<alice>
+<category>
+<pattern>HOWTO CHANGE MY NAME</pattern>
+<template><srai>BOTFAQ NAMECHANGE</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO CHANGE MY NAME *</pattern>
+<template><srai>BOTFAQ NAMECHANGE</srai></template>
+</category>
+
+<category>
+<pattern>CAN I CHANGE MY NAME</pattern>
+<template><srai>BOTFAQ NAMECHANGE</srai></template>
+</category>
+
+<category>
+<pattern>CAN I CHANGE MY NAME *</pattern>
+<template><srai>BOTFAQ NAMECHANGE</srai></template>
+</category>
+
+<category>
+<pattern>CAN WE CHANGE OUR NAME</pattern>
+<template><srai>BOTFAQ NAMECHANGE</srai></template>
+</category>
+
+<category>
+<pattern>CAN WE CHANGE OUR NAME *</pattern>
+<template><srai>BOTFAQ NAMECHANGE</srai></template>
+</category>
+
+
+<category>
+<pattern>BOTFAQ NAMECHANGE</pattern>
+<template>You may change your name by clicking on "GameCQ" menu in the top left corner and then selecting "Change Name".
+</template>
+</category>
+</alice>

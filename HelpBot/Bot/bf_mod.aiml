@@ -1,0 +1,88 @@
+<alice>
+
+<category>
+<pattern>WHAT IS A MOD *</pattern>
+<template><srai>BOTFAQ MOD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A MOD</pattern>
+<template><srai>BOTFAQ MOD</srai></template>
+</category>
+
+<category>
+<pattern>WHATS A MOD *</pattern>
+<template><srai>BOTFAQ MOD</srai></template>
+</category>
+
+<category>
+<pattern>WHATS A MOD</pattern>
+<template><srai>BOTFAQ MOD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT ARE MODS *</pattern>
+<template><srai>BOTFAQ MOD</srai></template>
+</category>
+
+<category>
+<pattern>WHAT ARE MODS</pattern>
+<template><srai>BOTFAQ MOD</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO BE A MOD *</pattern>
+<template><srai>BOTFAQ MAKEMOD</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO BE A MOD</pattern>
+<template><srai>BOTFAQ MAKEMOD</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO BECOME A MOD *</pattern>
+<template><srai>BOTFAQ MAKEMOD</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO BECOME A MOD</pattern>
+<template><srai>BOTFAQ MAKEMOD</srai></template>
+</category>
+
+
+
+<category>
+<pattern>WHO ARE THE MODS *</pattern>
+<template><srai>BOTFAQ WHOMOD</srai></template>
+</category>
+
+<category>
+<pattern>WHO ARE THE MODS</pattern>
+<template><srai>BOTFAQ WHOMOD</srai></template>
+</category>
+
+
+
+<category>
+<pattern>BOTFAQ MOD</pattern>
+<template>MOD is short for Moderator. Moderators are here to help new players and enforce the Rules of Conduct. Moderators are denoted in the players list with a green icon next to their name.
+</template>
+</category>
+
+<category>
+<pattern>BOTFAQ MAKEMOD</pattern>
+<template>Moderators are chosen by the Admins when they feel there is a need for new/additional moderators. The potential candidates are interviewed, voted on by the current staff and the Admins have the final say.
+</template>
+</category>
+
+<category>
+<pattern>BOTFAQ WHOMOD</pattern>
+<template>Staff members are listed on the website. Check them out at http://www.darkspace.net/index.htm?&module=staff.php
+
+</template>
+</category>
+
+
+
+</alice>

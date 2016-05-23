@@ -1,0 +1,18 @@
+<alice>
+
+<category>
+<pattern>WHAT IS BETA</pattern>
+<template><srai>BOTFAQ BETA</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS BETA * </pattern>
+<template><srai>BOTFAQ BETA</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ BETA</pattern>
+<template>DarkSpace Beta is a separate version used for testing new features, bugfixes and upcomming patches. While optional, if you have the beta client, you can help test the release of the next patch if the release is in that stage.
+</template>
+</category>
+</alice>

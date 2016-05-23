@@ -1,0 +1,17 @@
+<alice>
+
+<category>
+<pattern>HOWTO BOMB *</pattern>
+<template><srai>BOTFAQ BOMB</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO BOMB</pattern>
+<template><srai>BOTFAQ BOMB</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ BOMB</pattern>
+<template>Bombing is accomplished with bomber ships. You may select the Planet you wish to bomb and, if you are within bomb range, hit the 'B' key (to release all bombs), or click on which bombs you would like to release. If you are within 500 GU, you may select planetary surface targets to aim at.</template>
+</category>
+</alice>

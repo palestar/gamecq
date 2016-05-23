@@ -1,0 +1,38 @@
+<alice>
+
+<category>
+<pattern>WHAT IS A GATE</pattern>
+<template><srai>BOTFAQ JUMPGATE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A GATE * </pattern>
+<template><srai>BOTFAQ JUMPGATE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A JUMP GATE</pattern>
+<template><srai>BOTFAQ JUMPGATE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A JUMP GATE * </pattern>
+<template><srai>BOTFAQ JUMPGATE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A JUMPGATE</pattern>
+<template><srai>BOTFAQ JUMPGATE</srai></template>
+</category>
+
+<category>
+<pattern>WHAT IS A JUMPGATE * </pattern>
+<template><srai>BOTFAQ JUMPGATE</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ JUMPGATE</pattern>
+<template>A gate or jumpgate as they are called are fast travel nodes that players use to move from one system to another. These gates are fast and free to use, just fly into them. There is also a gate called a HOME gate.This is the original spawn point for each faction, it's located in their home system. Any ship taken from this gate take NO rescources but you can only take ships that are not bigger than a frigate. Transfer gates will allow you to move between servers without having to log out and reconnect.
+</template>
+</category>
+</alice>

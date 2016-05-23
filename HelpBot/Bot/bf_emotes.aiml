@@ -1,0 +1,26 @@
+<alice>
+<category>
+<pattern>HOWTO USE EMOTES</pattern>
+<template><srai>BOTFAQ EMOTES</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO USE EMOTES *</pattern>
+<template><srai>BOTFAQ EMOTES</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO MAKE EMOTES</pattern>
+<template><srai>BOTFAQ EMOTES</srai></template>
+</category>
+
+<category>
+<pattern>HOWTO MAKE EMOTES *</pattern>
+<template><srai>BOTFAQ EMOTES</srai></template>
+</category>
+
+<category>
+<pattern>BOTFAQ EMOTES</pattern>
+<template>Emotes are used by typing '/me [your action]' in the text box. Optionally there are some predefined emotes that can be used by right-clicking on a user from the player list window box, and selecting the emote you wish to use. You can make your own emotes by clicking on the 'View' menu, then 'Options', then selecting the 'Emotes' tab.</template>
+</category>
+</alice>

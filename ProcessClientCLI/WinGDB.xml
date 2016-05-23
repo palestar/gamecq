@@ -1,0 +1,268 @@
+<preferences>
+    <project name="ProcessClientCLI" configuration="Debug" platform="Win32" >
+        <class name="ProjectCommon" >
+        </class>
+        <class name="ProjectState" >
+        </class>
+    </project>
+
+    <project name="ProcessClientCLI" configuration="DebugLinux" platform="Win32" >
+        <class name="ProjectCommon" >
+            <values>
+                <value name="strMakefileCompilerC" >
+                gcc
+                </value>
+                <value name="strMakefileCompilerCXX" >
+                g++
+                </value>
+                <value name="strMakefileRM" >
+                rm -f
+                </value>
+                <value name="strMakefileMKDIR" >
+                mkdir -p
+                </value>
+                <value name="strMakefileIntDir" >
+                DebugLinux/obj
+                </value>
+                <value name="strMakefileDestDir" >
+                ../Bin
+                </value>
+                <value name="strMakefileCFLAGS" >
+                -g -I ../../Medusa/ -I ../
+                </value>
+                <value name="strMakefileCXXFLAGS" >
+                -g -I ../../Medusa/ -I ../
+                </value>
+                <value name="strMakefileLDFLAGS" >
+                  -L ../Bin/ -L ../../Medusa/Bin/ -lMedusaD -lGCQD -lpthread -ldl -lNetworkD
+                </value>
+                <value name="strRemoteBuildCommand" >
+                make
+                </value>
+                <value name="strRemoteRebuildCommand" >
+                make clean; make
+                </value>
+                <value name="strRemoteCleanCommand" >
+                make clean
+                </value>
+                <value name="pathRemoteBuildDirectory" >
+                /home/builder/work/Trunk/GameCQ/ProcessClientCLI
+                </value>
+                <value name="strRemoteBuildVariables" >
+                BUILD_CONFIGURATION="DebugLinux"
+                </value>
+                <value name="selBuildBeforeStartDebugging" >
+                0
+                </value>
+                <value name="bDeployBeforeStartDebugging" >
+                false
+                </value>
+                <value name="selDeployAction" >
+                1
+                </value>
+                <value name="bDeployOnlyIfFileChanged" >
+                false
+                </value>
+                <value name="pathDeployFile" >
+                
+                </value>
+                <value name="pathCore" >
+                
+                </value>
+                <value name="pathWorkingDirectory" >
+                
+                </value>
+                <value name="strLaunchArguments" >
+                
+                </value>
+                <value name="strLaunchEnvironment" >
+                
+                </value>
+                <value name="bStopInMain" >
+                true
+                </value>
+                <value name="pathExecutable" >
+                /home/builder/work/Trunk/GameCQ/Bin/ProcessClientCLID
+                </value>
+                <value name="selByteOrder" >
+                1
+                </value>
+                <value name="pathCustomInitScript" >
+                
+                </value>
+                <value name="pathSourceDirectories" >
+                
+                </value>
+                <value name="pathDebugInfoDirectory" >
+                
+                </value>
+                <value name="pathSharedLibraryDirectories" >
+                
+                </value>
+                <value name="strVisualizerProfile" >
+                
+                </value>
+                <value name="bSourceSession" >
+                false
+                </value>
+                <value name="bDisableHangReporter" >
+                false
+                </value>
+                <value name="pathDebugger" >
+                gdb
+                </value>
+                <value name="pathToolchain" >
+                
+                </value>
+                <value name="bReuseStandardBuildCommand" >
+                true
+                </value>
+                <value name="selTargetType" >
+                0
+                </value>
+                <value name="strDebugHostLogin" >
+                builder:god2899@vm2:2200
+                </value>
+                <value name="strBuildHostLogin" >
+                builder:god2899@vm2:2200
+                </value>
+            </values>
+        </class>
+        <class name="ProjectState" >
+        </class>
+    </project>
+
+    <project name="ProcessClientCLI" configuration="Release" platform="Win32" >
+        <class name="ProjectCommon" >
+        </class>
+        <class name="ProjectState" >
+        </class>
+    </project>
+
+    <project name="ProcessClientCLI" configuration="ReleaseLinux" platform="Win32" >
+        <class name="ProjectCommon" >
+            <values>
+                <value name="strMakefileCompilerC" >
+                gcc
+                </value>
+                <value name="strMakefileCompilerCXX" >
+                g++
+                </value>
+                <value name="strMakefileRM" >
+                rm -f
+                </value>
+                <value name="strMakefileMKDIR" >
+                mkdir -p
+                </value>
+                <value name="strMakefileIntDir" >
+                ReleaseLinux/obj
+                </value>
+                <value name="strMakefileDestDir" >
+                ../Bin
+                </value>
+                <value name="strMakefileCFLAGS" >
+                -g -O2 -I ../../Medusa/ -I ../
+                </value>
+                <value name="strMakefileCXXFLAGS" >
+                -g -O2 -I ../../Medusa/ -I ../
+                </value>
+                <value name="strMakefileLDFLAGS" >
+                  -L ../Bin/ -L ../../Medusa/Bin/ -lMedusa -lGCQ -lpthread -ldl -lNetwork
+                </value>
+                <value name="strRemoteBuildCommand" >
+                make
+                </value>
+                <value name="strRemoteRebuildCommand" >
+                make clean; make
+                </value>
+                <value name="strRemoteCleanCommand" >
+                make clean
+                </value>
+                <value name="pathRemoteBuildDirectory" >
+                /home/builder/work/Trunk/GameCQ/ProcessClientCLI
+                </value>
+                <value name="strRemoteBuildVariables" >
+                BUILD_CONFIGURATION="ReleaseLinux"
+                </value>
+                <value name="selBuildBeforeStartDebugging" >
+                0
+                </value>
+                <value name="bDeployBeforeStartDebugging" >
+                false
+                </value>
+                <value name="selDeployAction" >
+                1
+                </value>
+                <value name="bDeployOnlyIfFileChanged" >
+                false
+                </value>
+                <value name="pathDeployFile" >
+                
+                </value>
+                <value name="pathCore" >
+                
+                </value>
+                <value name="pathWorkingDirectory" >
+                
+                </value>
+                <value name="strLaunchArguments" >
+                
+                </value>
+                <value name="strLaunchEnvironment" >
+                
+                </value>
+                <value name="bStopInMain" >
+                true
+                </value>
+                <value name="pathExecutable" >
+                /home/builder/work/Trunk/GameCQ/Bin/ProcessClientCLI
+                </value>
+                <value name="selByteOrder" >
+                1
+                </value>
+                <value name="pathCustomInitScript" >
+                
+                </value>
+                <value name="pathSourceDirectories" >
+                
+                </value>
+                <value name="pathDebugInfoDirectory" >
+                
+                </value>
+                <value name="pathSharedLibraryDirectories" >
+                
+                </value>
+                <value name="strVisualizerProfile" >
+                
+                </value>
+                <value name="bSourceSession" >
+                false
+                </value>
+                <value name="bDisableHangReporter" >
+                false
+                </value>
+                <value name="pathDebugger" >
+                gdb
+                </value>
+                <value name="pathToolchain" >
+                
+                </value>
+                <value name="bReuseStandardBuildCommand" >
+                true
+                </value>
+                <value name="selTargetType" >
+                0
+                </value>
+                <value name="strDebugHostLogin" >
+                builder:god2899@build:2200
+                </value>
+                <value name="strBuildHostLogin" >
+                builder:god2899@build:2200
+                </value>
+            </values>
+        </class>
+        <class name="ProjectState" >
+        </class>
+    </project>
+
+</preferences>

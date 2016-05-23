@@ -1,0 +1,13 @@
+<alice>
+<category>
+<pattern>HOWTO MISSION</pattern>
+<template><srai>BOTFAQ MISSIONS</srai></template>
+</category>
+
+
+<category>
+<pattern>BOTFAQ MISSIONS</pattern>
+<template>Sorry, but the missions system is not currently implemented.</template>
+</category>
+</alice>
+

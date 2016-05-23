@@ -1,0 +1,31 @@
+<alice>
+
+<category>
+<pattern>WHERE IS THE MANUAL *</pattern>
+<template><srai>BOTFAQ MANUAL</srai></template>
+</category>
+
+<category>
+<pattern>WHERE IS THE MANUAL</pattern>
+<template><srai>BOTFAQ MANUAL</srai></template>
+</category>
+
+<category>
+<pattern>WHERES THE MANUAL *</pattern>
+<template><srai>BOTFAQ MANUAL</srai></template>
+</category>
+
+<category>
+<pattern>WHERES THE MANUAL</pattern>
+<template><srai>BOTFAQ MANUAL</srai></template>
+</category>
+
+
+<category>
+<pattern>BOTFAQ MANUAL</pattern>
+<template>The manual can be found [url=http://www.darkspace.net/index.htm?module=document.php&doc_id=1]Here[/url].
+</template>
+</category>
+
+
+</alice>
