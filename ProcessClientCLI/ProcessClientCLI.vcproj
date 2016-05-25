@@ -355,11 +355,12 @@
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
@@ -369,27 +370,29 @@
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="DebugLinux|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="ReleaseLinux|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
@@ -403,37 +406,40 @@
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Release|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="DebugLinux|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="ReleaseLinux|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
@@ -443,11 +449,12 @@
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
@@ -457,27 +464,29 @@
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="DebugLinux|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="ReleaseLinux|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
@@ -491,37 +500,40 @@
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Release|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="DebugLinux|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="ReleaseLinux|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
@@ -531,11 +543,12 @@
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
@@ -545,27 +558,29 @@
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="DebugLinux|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="ReleaseLinux|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
@@ -579,37 +594,40 @@
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Release|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="DebugLinux|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="ReleaseLinux|Win32"
+					ExcludedFromBuild="true"
 					>
 					<Tool
 						Name="VCCustomBuildTool"
 						Description="copy $(InputPath) $(OutDir)"
-						CommandLine="copy $(InputPath) $(OutDir)"
+						CommandLine="copy $(InputPath) $(OutDir)&#x0D;&#x0A;"
 						Outputs="$(OutDir)\$(InputFilename)"
 					/>
 				</FileConfiguration>
