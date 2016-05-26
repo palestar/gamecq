@@ -15,3 +15,6 @@ BuildLog.htm
 *.suo
 *.log
 Config/
+HelpBot/Release/
+Service/NTServiceEventLogMsg.h
+Service/NTServiceEventLogMsg.rc
