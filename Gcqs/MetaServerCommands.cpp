@@ -1003,7 +1003,7 @@ void MetaServer::processCommand( dword client, dword roomId, dword recpId, const
 				dword banFrom = banned[i]["ban_from"];
 				CharString banWhy = (const char *)banned[i]["ban_why" ];
 
-				CharString query2 = CharString().format("SELECT reason FROM watchlist WHERE banid = $u", banId );
+				CharString query2 = CharString().format("SELECT reason FROM watchlist WHERE banid = %u", banId );
 				Database::Query banned2( pDB->query( query ) );
 
 				if ( banned2.size() > 0 )
