@@ -810,7 +810,7 @@ void MetaServer::onReceive( dword clientId, byte message, const InStream & input
 				if( result > 0 ) //user_id exists so I FEEL GREAT, I FEEL GOD, I. CAN. DO. THIS.
 				{
 
-					pDB->execute(CharString().format("UPDATE clan_members SET is_valid=1 WHERE user_id=$u AND clan_id=$u", promotid, clanid) );
+					pDB->execute(CharString().format("UPDATE clan_members SET is_valid=1 WHERE user_id=%u AND clan_id=%u", promotid, clanid) );
 					pDB->execute(CharString().format("INSERT INTO user_reload(user_id,time) VALUES (%u,UNIX_TIMESTAMP())", promotid) );
 
 					Database::Query result(pDB->query(CharString().format("SELECT forum_id FROM clans WHERE clan_id=%u", clanid) ) );
@@ -858,7 +858,7 @@ void MetaServer::onReceive( dword clientId, byte message, const InStream & input
 				int result = pDB->query( CharString().format("SELECT user_id from clan_members WHERE clan_id=%u AND user_id=%u", clanid, promotid) ).rows();
 				if( result > 0 ) //user_id exists so I FEEL GREAT, I FEEL GOD, I. CAN. DO. THIS.
 				{
-					pDB->execute(CharString().format("UPDATE clan_members SET is_admin=1 WHERE user_id=$u AND clan_id=$u", promotid, clanid) );
+					pDB->execute(CharString().format("UPDATE clan_members SET is_admin=1 WHERE user_id=%u AND clan_id=%u", promotid, clanid) );
 				}
 				else
 				{
