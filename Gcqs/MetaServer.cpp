@@ -944,7 +944,7 @@ void MetaServer::onReceive( dword clientId, byte message, const InStream & input
 			if ( clanId != 0 )	// request to join a clan. Check if the clan is currently accepting new recruits
 			{
 				// get current member count
-				Database::Query q_cur_members( pDB->query( CharString().format("SELECT COUNT( is_valid ) FROM clan_members WHERE clan_id=$u", clanId) ) );
+				Database::Query q_cur_members( pDB->query( CharString().format("SELECT COUNT( is_valid ) FROM clan_members WHERE clan_id=%u", clanId) ) );
 				if ( q_cur_members.rows() == 1 )
 					curMembers = q_cur_members[0][0];
 					
