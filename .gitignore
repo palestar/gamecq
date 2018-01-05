@@ -19,3 +19,6 @@ HelpBot/Release/
 Service/NTServiceEventLogMsg.h
 Service/NTServiceEventLogMsg.rc
 .vs/
+*.tlog
+*.lib
+UpgradeLog.htm
