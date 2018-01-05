@@ -13,13 +13,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// English (U.S.) resources
+// English (United States) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -67,37 +65,69 @@ END
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
 IDR_MAINFRAME           ICON                    "res\\GCQL.ico"
+
 IDR_GCQLTYPE            ICON                    "res\\GCQLDoc.ico"
+
 IDI_AVATAR              ICON                    "res\\Avatar.ico"
+
 IDI_DOWN                ICON                    "res\\down.ico"
+
 IDI_UP                  ICON                    "res\\up.ico"
+
 IDI_GAME_DEMO           ICON                    "res\\game.ico"
+
 IDI_ROOM                ICON                    "res\\room.ico"
+
 IDI_FRIENDS             ICON                    "res\\friends.ico"
+
 IDI_CLAN                ICON                    "res\\clan.ico"
+
 IDI_CLANS               ICON                    "res\\clans.ico"
+
 IDI_GAMES               ICON                    "res\\games.ico"
+
 IDI_ROOMS               ICON                    "res\\rooms.ico"
+
 IDI_FRIEND              ICON                    "res\\friend.ico"
+
 IDI_RIGHT               ICON                    "res\\right.ico"
+
 IDI_AVATAR_MOD          ICON                    "res\\avatar_m.ico"
+
 IDI_AVATAR_ADMIN        ICON                    "res\\avatar_a.ico"
+
 IDI_FRIEND_OFFLINE      ICON                    "res\\friend_o.ico"
+
 IDI_MESSAGE             ICON                    "res\\message.ico"
+
 IDI_CANCEL              ICON                    "res\\cancel.ico"
+
 IDI_AVATAR_AWAY         ICON                    "res\\ico00001.ico"
+
 IDI_GAME_RELEASE        ICON                    "res\\game1.ico"
+
 IDI_GAME_BETA           ICON                    "res\\game2.ico"
+
 IDI_MACHINE             ICON                    "res\\icon1.ico"
+
 IDI_PROCESS_STOPPED     ICON                    "res\\ico00002.ico"
+
 IDI_PROCESS_ACTIVE      ICON                    "res\\ico00003.ico"
+
 IDI_AVATAR_HIDDEN       ICON                    "res\\ico00004.ico"
+
 IDI_MUTED               ICON                    "res\\ico00005.ico"
+
 IDI_PMESSAGE            ICON                    "res\\ico00006.ico"
+
 IDI_PROGRAM             ICON                    "res\\games1.ico"
+
 IDI_AVATAR_DEV          ICON                    "res\\avatar_d.ico"
+
 IDI_AVATAR_INGAME       ICON                    "res\\ingame.ico"
+
 IDI_AVATAR_SUB          ICON                    "res\\avatar_sub.ico"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -105,21 +135,30 @@ IDI_AVATAR_SUB          ICON                    "res\\avatar_sub.ico"
 //
 
 IDB_CAPTION             BITMAP                  "res\\caption.bmp"
+
 IDR_USERBAR             BITMAP                  "res\\toolbar1.bmp"
+
 IDR_NAVBAR              BITMAP                  "res\\bmp00001.bmp"
+
 IDR_CHATBAR             BITMAP                  "res\\bmp00002.bmp"
+
 IDB_ONLINE              BITMAP                  "res\\caption1.bmp"
+
 IDB_OFFLINE             BITMAP                  "res\\online1.bmp"
+
 IDR_CACHEBAR            BITMAP                  "res\\gamebar256.bmp"
+
 IDR_TOPCHATBAR          BITMAP                  "res\\gamebar1.bmp"
+
 IDR_SERVERBAR           BITMAP                  "res\\bmp00003.bmp"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
 // Toolbar
 //
 
-IDR_USERBAR TOOLBAR  16, 15
+IDR_USERBAR TOOLBAR 16, 15
 BEGIN
     BUTTON      ID_FRIENDS_ADDFRIEND
     BUTTON      ID_FRIENDS_DELETEFRIEND
@@ -127,7 +166,7 @@ BEGIN
     BUTTON      ID_USER_FRIENDS_REFRESH
 END
 
-IDR_NAVBAR TOOLBAR  16, 16
+IDR_NAVBAR TOOLBAR 16, 16
 BEGIN
     BUTTON      ID_NAVBAR_HOME
     BUTTON      ID_NAVBAR_NEWS
@@ -140,14 +179,14 @@ BEGIN
     BUTTON      ID_NAVIGATION_REFRESH
 END
 
-IDR_CHATBAR TOOLBAR  16, 16
+IDR_CHATBAR TOOLBAR 16, 16
 BEGIN
     BUTTON      ID_CHAT_EDIT
     BUTTON      ID_CHAT_SENDCHAT
     BUTTON      ID_CHAT_COLOR
 END
 
-IDR_CACHEBAR TOOLBAR  16, 16
+IDR_CACHEBAR TOOLBAR 16, 16
 BEGIN
     BUTTON      ID_GAMES_LAUNCH
     BUTTON      ID_GAMES_INSTALL
@@ -155,7 +194,7 @@ BEGIN
     BUTTON      ID_GAMES_DELETE
 END
 
-IDR_TOPCHATBAR TOOLBAR  16, 16
+IDR_TOPCHATBAR TOOLBAR 16, 16
 BEGIN
     BUTTON      ID_GAMEBAR_LOBBY
     BUTTON      ID_GAMEBAR_ROOMS
@@ -164,7 +203,7 @@ BEGIN
     BUTTON      ID_GAMEBAR_STAFF
 END
 
-IDR_SERVERBAR TOOLBAR  16, 16
+IDR_SERVERBAR TOOLBAR 16, 16
 BEGIN
     BUTTON      ID_SERVER_CONNECT
     BUTTON      ID_SERVER_FILTER
@@ -177,7 +216,7 @@ END
 // Menu
 //
 
-IDR_MAINFRAME MENU 
+IDR_MAINFRAME MENU
 BEGIN
     POPUP "GameC&Q"
     BEGIN
@@ -220,7 +259,7 @@ BEGIN
     END
 END
 
-IDR_POPUP_TOOLBAR MENU 
+IDR_POPUP_TOOLBAR MENU
 BEGIN
     POPUP "DUMMY"
     BEGIN
@@ -229,7 +268,7 @@ BEGIN
     END
 END
 
-IDR_POPUP_SERVER MENU 
+IDR_POPUP_SERVER MENU
 BEGIN
     POPUP "&Server"
     BEGIN
@@ -240,7 +279,7 @@ BEGIN
     END
 END
 
-IDR_POPUP_PLAYER MENU 
+IDR_POPUP_PLAYER MENU
 BEGIN
     POPUP "&Player"
     BEGIN
@@ -253,7 +292,7 @@ BEGIN
     END
 END
 
-IDR_POPUP_PLAYERM MENU 
+IDR_POPUP_PLAYERM MENU
 BEGIN
     POPUP "&Player"
     BEGIN
@@ -276,7 +315,7 @@ BEGIN
     END
 END
 
-IDR_POPUP_FRIEND MENU 
+IDR_POPUP_FRIEND MENU
 BEGIN
     POPUP "&Friend"
     BEGIN
@@ -285,7 +324,7 @@ BEGIN
     END
 END
 
-IDR_POPUP_PROCESS MENU 
+IDR_POPUP_PROCESS MENU
 BEGIN
     POPUP "&Process"
     BEGIN
@@ -302,7 +341,7 @@ BEGIN
     END
 END
 
-IDR_POPUP_FINDUSER MENU 
+IDR_POPUP_FINDUSER MENU
 BEGIN
     POPUP "Player"
     BEGIN
@@ -318,7 +357,7 @@ BEGIN
     END
 END
 
-IDR_CHATBAR MENU 
+IDR_CHATBAR MENU
 BEGIN
     POPUP "Chat"
     BEGIN
@@ -330,7 +369,7 @@ BEGIN
     END
 END
 
-IDR_POPUP_GAMECQ MENU 
+IDR_POPUP_GAMECQ MENU
 BEGIN
     POPUP "GameCQ"
     BEGIN
@@ -349,7 +388,7 @@ END
 // Accelerator
 //
 
-IDR_MAINFRAME ACCELERATORS 
+IDR_MAINFRAME ACCELERATORS
 BEGIN
     "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
     VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
@@ -455,7 +494,7 @@ STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPT
 FONT 8, "MS Shell Dlg", 0, 0, 0x0
 BEGIN
     DEFPUSHBUTTON   "Cancel",IDCANCEL,68,25,50,14
-    CONTROL         "Progress1",CG_IDC_PROGDLG_PROGRESS,"msctls_progress32",WS_BORDER | 0x1,13,16,160,6
+    CONTROL         "Progress1",CG_IDC_PROGDLG_PROGRESS,"msctls_progress32",PBS_SMOOTH | WS_BORDER,13,16,160,6
     LTEXT           "Connecting to GameCQ server...",CG_IDC_PROGDLG_STATUS,13,7,160,8
 END
 
@@ -752,7 +791,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_ABOUTBOX, DIALOG
     BEGIN
@@ -947,13 +986,16 @@ END
 
 IDR_EULA                RT_EULA                 "Eula.txt"
 
+
 /////////////////////////////////////////////////////////////////////////////
 //
 // WAVE
 //
 
 IDW_CHAT01              WAVE                    "res\\chat01.wav"
+
 IDW_MESSAGE01           WAVE                    "res\\message01.wav"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -961,6 +1003,7 @@ IDW_MESSAGE01           WAVE                    "res\\message01.wav"
 //
 
 IDR_EMPTY_HTML          HTML                    "res\\empty_ht.htm"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -1004,28 +1047,21 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// RT_MANIFEST
-//
-
-IDR_RT_MANIFEST1        RT_MANIFEST             "res\\GCQL.exe.manifest"
-
-/////////////////////////////////////////////////////////////////////////////
-//
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDR_MAINFRAME           "GCQL\n\nGCQL\nGCQL Files (*.gcq)\n.gcq\nGCQL.Document\nGCQL Document"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_APP_TITLE       "GCQL"
     AFX_IDS_IDLEMESSAGE     "Ready"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_INDICATOR_EXT        "EXT"
     ID_INDICATOR_CAPS       "CAP"
@@ -1035,7 +1071,7 @@ BEGIN
     ID_INDICATOR_REC        "REC"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_FILE_NEW             "Create a new document\nNew"
     ID_FILE_OPEN            "Open an existing document\nOpen"
@@ -1048,13 +1084,13 @@ BEGIN
     ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
     ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_FILE_MRU_FILE1       "Open this document"
     ID_FILE_MRU_FILE2       "Open this document"
@@ -1074,18 +1110,18 @@ BEGIN
     ID_FILE_MRU_FILE16      "Open this document"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
     ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_CLEAR           "Erase the selection\nErase"
     ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
@@ -1100,13 +1136,13 @@ BEGIN
     ID_EDIT_REDO            "Redo the previously undone action\nRedo"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
     ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_VIEW_CAPTIONBAR      "Show or hide the caption bar\nToggle Caption Bar"
     ID_NAVIGATION_REFRESH   "Refresh\nRefresh"
@@ -1114,7 +1150,7 @@ BEGIN
     ID_NAVIGATION_FORWARD   "Forward\nForward"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_SCSIZE          "Change the window size"
     AFX_IDS_SCMOVE          "Change the window position"
@@ -1125,25 +1161,25 @@ BEGIN
     AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_SCRESTORE       "Restore the window to normal size"
     AFX_IDS_SCTASKLIST      "Activate Task List"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAIN_TOOLBAR        "Standard"
     IDS_FRIEND_TOOLBAR      "Friends"
     CG_IDS_PROGRESS_CAPTION "Progress..."
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_CONNECT              "Connect to game server\nConnect to game server"
     ID_PLAYER_ADDFRIEND     "Add Friend List\nAdd Friend"
@@ -1153,7 +1189,7 @@ BEGIN
     ID_PLAYER_WHO           "Get Player Information\nWho"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_GAMEBAR_PLAY         "Play\nPlay"
     ID_GAMEBAR_HOME         "Home\nHome"
@@ -1163,7 +1199,7 @@ BEGIN
     ID_GAMECQ_DOWNLOAD      "Download\nDownload"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_GAMECQ_HOME          "Home\nHome"
     ID_GAMEBAR_CREATE_ROOM  "New Room\nNew Room"
@@ -1175,23 +1211,23 @@ BEGIN
     ID_PLAYER_KICK          "Kick Player for 10 minutes\nKick"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_GAMEBAR_STAFF        "Staff"
     ID_GAMECQ_CHAT          "Chat\nChat"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_PLAYER_SEND          "Send Private Message\nSend"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_PLAYER_EDIT          "Edit the players profile\nEdit"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_SERVER_REFRESH       "Refresh\nRefresh"
     ID_EDIT_FINDUSERS       "Find Users"
@@ -1201,7 +1237,7 @@ BEGIN
     ID_NAVBAR_HOME          "Home\nHome"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_NAVBAR_FORUM         "Forum\nForum"
     ID_GAMEBAR_TUTORIAL     "Tutorial\nTutorial"
@@ -1210,17 +1246,17 @@ BEGIN
     ID_CHAT_HIDE            "Hide/Show Chat"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_CHAT_COLOR           "Change Chat Color"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_CHAT_SENDCHAT        "Send Chat"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_GAMECQ_GAMES         "Games\nGames"
     ID_GAMECQ_SERVERS       "Servers\nServers"
@@ -1231,7 +1267,7 @@ BEGIN
     ID_GAMES_INSTALL        "Install\nInstall"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_GAMES_LAUNCH         "Launch\nLaunch"
     ID_GAMES_DELETE         "Delete\nDelete"
@@ -1243,7 +1279,7 @@ BEGIN
     ID_SERVER_FILTER        "Filter"
 END
 
-#endif    // English (U.S.) resources
+#endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

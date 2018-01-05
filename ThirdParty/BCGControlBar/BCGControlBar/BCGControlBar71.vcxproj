@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Debug|Win32">
+      <Configuration>Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Release|Win32">
+      <Configuration>Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>BCGControlBar</ProjectName>
+    <ProjectGuid>{1278B3AB-A6CF-4DCC-8618-825DAA578949}</ProjectGuid>
+    <RootNamespace>BCGControlBar</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.27130.2010</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\..\bin\</OutDir>
+    <IntDir>.\Debug80\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <OutDir>.\..\bin\</OutDir>
+    <IntDir>.\UnicodeDebug80\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\..\bin\</OutDir>
+    <IntDir>.\Release80\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>BCGCB70080</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <OutDir>.\..\bin\</OutDir>
+    <IntDir>.\UnicodeRelease80\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\bin/BCGControlBar71.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_AFXEXT;_BCGCONTROLBAR_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ForcedIncludeFiles>TargetSxS.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\bin/BCGCB700D80.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\bin/BCGControlBar71.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_AFXEXT;_BCGCONTROLBAR_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ForcedIncludeFiles>TargetSxS.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\bin/BCGCB700UD80.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\bin/BCGControlBar71.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;_BCGCONTROLBAR_;WIN32;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ForcedIncludeFiles>TargetSxS.h;</ForcedIncludeFiles>
+      <ProgramDataBaseFileName>$(IntDir)\vc80.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>winmm.lib;</AdditionalDependencies>
+      <OutputFile>..\bin/BCGCB70080.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\bin/BCGControlBar71.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;_BCGCONTROLBAR_;WIN32;_WINDOWS;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ForcedIncludeFiles>TargetSxS.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\bin/BCGCB700U80.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BCGAnimCtrl.cpp" />
+    <ClCompile Include="BCGAppBarWnd.cpp" />
+    <ClCompile Include="BCGButton.cpp" />
+    <ClCompile Include="BCGCaptionBar.cpp" />
+    <ClCompile Include="BCGColorBar.cpp" />
+    <ClCompile Include="BCGColorButton.cpp" />
+    <ClCompile Include="BCGColorDialog.cpp" />
+    <ClCompile Include="BCGColorMenuButton.cpp" />
+    <ClCompile Include="BCGCommandManager.cpp" />
+    <ClCompile Include="BCGContextMenuManager.cpp" />
+    <ClCompile Include="BCGControlBar.cpp" />
+    <ClCompile Include="BCGControlBarImpl.cpp" />
+    <ClCompile Include="BCGCustomizeMenuButton.cpp" />
+    <ClCompile Include="BCGDialog.cpp" />
+    <ClCompile Include="BCGDialogBar.cpp" />
+    <ClCompile Include="BCGDlgImpl.cpp" />
+    <ClCompile Include="BCGDockContext.cpp" />
+    <ClCompile Include="BCGDrawManager.cpp" />
+    <ClCompile Include="BCGDropDown.cpp" />
+    <ClCompile Include="BCGEditListBox.cpp" />
+    <ClCompile Include="BCGExCheckList.cpp" />
+    <ClCompile Include="BCGFileDialog.cpp" />
+    <ClCompile Include="BCGFontComboBox.cpp" />
+    <ClCompile Include="BCGFrameImpl.cpp" />
+    <ClCompile Include="BCGFrameWnd.cpp" />
+    <ClCompile Include="BCGHeaderCtrl.cpp" />
+    <ClCompile Include="bcginit.cpp" />
+    <ClCompile Include="BCGInplaceToolTipCtrl.cpp" />
+    <ClCompile Include="BCGKeyboardManager.cpp" />
+    <ClCompile Include="BCGKeyMapDlg.cpp" />
+    <ClCompile Include="BCGListCtrl.cpp" />
+    <ClCompile Include="BCGMainClientAreaWnd.cpp" />
+    <ClCompile Include="BCGMaskEdit.cpp" />
+    <ClCompile Include="BCGMDIChildWnd.cpp" />
+    <ClCompile Include="BCGMDIFrameWnd.cpp" />
+    <ClCompile Include="BCGMenuBar.cpp" />
+    <ClCompile Include="BCGMenuButton.cpp" />
+    <ClCompile Include="BCGMouseManager.cpp" />
+    <ClCompile Include="BCGOleDocIPFrameWnd.cpp" />
+    <ClCompile Include="BCGOleIPFrameWnd.cpp" />
+    <ClCompile Include="bcgoutlookbar.cpp" />
+    <ClCompile Include="BCGOutlookButton.cpp" />
+    <ClCompile Include="BCGPopupDlg.cpp" />
+    <ClCompile Include="BCGPopupMenu.cpp" />
+    <ClCompile Include="BCGPopupMenuBar.cpp" />
+    <ClCompile Include="BCGPopupWindow.cpp" />
+    <ClCompile Include="BCGPrintPreviewView.cpp" />
+    <ClCompile Include="BCGPropertyPage.cpp" />
+    <ClCompile Include="BCGPropertySheet.cpp" />
+    <ClCompile Include="BCGPropList.cpp" />
+    <ClCompile Include="BCGRegistry.cpp" />
+    <ClCompile Include="BCGSelectSkinDlg.cpp" />
+    <ClCompile Include="BCGShellList.cpp" />
+    <ClCompile Include="BCGShellManager.cpp" />
+    <ClCompile Include="BCGShellTree.cpp" />
+    <ClCompile Include="BCGShowAllButton.cpp" />
+    <ClCompile Include="BCGSizingControlBar.cpp" />
+    <ClCompile Include="BCGSkinManager.cpp" />
+    <ClCompile Include="bcgsound.cpp" />
+    <ClCompile Include="BCGSpinButtonCtrl.cpp" />
+    <ClCompile Include="BCGSplitterWnd.cpp" />
+    <ClCompile Include="BCGStatusBar.cpp" />
+    <ClCompile Include="BCGTabView.cpp" />
+    <ClCompile Include="bcgtabwnd.cpp" />
+    <ClCompile Include="BCGTasksPane.cpp" />
+    <ClCompile Include="BCGTearOffManager.cpp" />
+    <ClCompile Include="BCGToolBar.cpp" />
+    <ClCompile Include="BCGToolbarButton.cpp" />
+    <ClCompile Include="BCGToolbarComboBoxButton.cpp" />
+    <ClCompile Include="BCGToolbarDateTimeCtrl.cpp" />
+    <ClCompile Include="BCGToolbarDropSource.cpp" />
+    <ClCompile Include="BCGToolbarDropTarget.cpp" />
+    <ClCompile Include="BCGToolbarEditBoxButton.cpp" />
+    <ClCompile Include="BCGToolbarFontCombo.cpp" />
+    <ClCompile Include="BCGToolBarImages.cpp" />
+    <ClCompile Include="BCGToolbarMenuButton.cpp" />
+    <ClCompile Include="BCGToolbarMenuButtonsButton.cpp" />
+    <ClCompile Include="BCGToolbarRegularMenuButton.cpp" />
+    <ClCompile Include="BCGToolbarSpinEditBoxButton.cpp" />
+    <ClCompile Include="BCGToolbarSystemMenuButton.cpp" />
+    <ClCompile Include="BCGToolsPage.cpp" />
+    <ClCompile Include="BCGURLLinkButton.cpp" />
+    <ClCompile Include="BCGUserTool.cpp" />
+    <ClCompile Include="BCGUserToolsManager.cpp" />
+    <ClCompile Include="BCGVisualManager.cpp" />
+    <ClCompile Include="BCGVisualManager2003.cpp" />
+    <ClCompile Include="BCGVisualManagerVS2005.cpp" />
+    <ClCompile Include="BCGVisualManagerXP.cpp" />
+    <ClCompile Include="BCGWindowsManagerDlg.cpp" />
+    <ClCompile Include="BCGWinXPVisualManager.cpp" />
+    <ClCompile Include="BCGWorkspace.cpp" />
+    <ClCompile Include="ButtonAppearanceDlg.cpp" />
+    <ClCompile Include="ButtonsList.cpp" />
+    <ClCompile Include="ButtonsTextList.cpp" />
+    <ClCompile Include="CBCGToolbarCustomize.cpp" />
+    <ClCompile Include="CBCGToolbarCustomizePages.cpp" />
+    <ClCompile Include="CmdUsageCount.cpp" />
+    <ClCompile Include="ColorPage1.cpp" />
+    <ClCompile Include="ColorPage2.cpp" />
+    <ClCompile Include="ColorPopup.cpp" />
+    <ClCompile Include="CustomizeButton.cpp" />
+    <ClCompile Include="GLOBALS.CPP" />
+    <ClCompile Include="ImageEditDlg.cpp" />
+    <ClCompile Include="ImageHash.cpp" />
+    <ClCompile Include="ImagePaintArea.cpp" />
+    <ClCompile Include="KeyAssign.cpp" />
+    <ClCompile Include="KeyboardPage.cpp" />
+    <ClCompile Include="KeyHelper.cpp" />
+    <ClCompile Include="MenuHash.cpp" />
+    <ClCompile Include="MenuImages.cpp" />
+    <ClCompile Include="MenuPage.cpp" />
+    <ClCompile Include="MousePage.cpp" />
+    <ClCompile Include="OptionsPage.cpp" />
+    <ClCompile Include="PowerColorPicker.cpp" />
+    <ClCompile Include="PropertySheetCtrl.cpp" />
+    <ClCompile Include="RebarState.cpp" />
+    <ClCompile Include="RegPath.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ToolbarNameDlg.cpp" />
+    <ClCompile Include="TrackMouse.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BCGControlBar.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BCGAnimCtrl.h" />
+    <ClInclude Include="BCGAppBarWnd.h" />
+    <ClInclude Include="bcgbarres.h" />
+    <ClInclude Include="BCGButton.h" />
+    <ClInclude Include="BCGCaptionBar.h" />
+    <ClInclude Include="BCGCB.h" />
+    <ClInclude Include="bcgcbver.h" />
+    <ClInclude Include="BCGColorBar.h" />
+    <ClInclude Include="BCGColorButton.h" />
+    <ClInclude Include="BCGColorDialog.h" />
+    <ClInclude Include="BCGColorMenuButton.h" />
+    <ClInclude Include="BCGCommandManager.h" />
+    <ClInclude Include="BCGContextMenuManager.h" />
+    <ClInclude Include="BCGControlBar.h" />
+    <ClInclude Include="BCGControlBarImpl.h" />
+    <ClInclude Include="BCGCustomizeMenuButton.h" />
+    <ClInclude Include="BCGDialog.h" />
+    <ClInclude Include="BCGDialogBar.h" />
+    <ClInclude Include="BCGDlgImpl.h" />
+    <ClInclude Include="BCGDockBar.h" />
+    <ClInclude Include="BCGDockContext.h" />
+    <ClInclude Include="BCGDrawManager.h" />
+    <ClInclude Include="BCGDropDown.h" />
+    <ClInclude Include="BCGEditListBox.h" />
+    <ClInclude Include="BCGExCheckList.h" />
+    <ClInclude Include="BCGFileDialog.h" />
+    <ClInclude Include="BCGFontComboBox.h" />
+    <ClInclude Include="BCGFrameImpl.h" />
+    <ClInclude Include="BCGFrameWnd.h" />
+    <ClInclude Include="BCGHeaderCtrl.h" />
+    <ClInclude Include="bcghelpids.h" />
+    <ClInclude Include="BCGInit.h" />
+    <ClInclude Include="BCGInplaceToolTipCtrl.h" />
+    <ClInclude Include="BCGKeyboardManager.h" />
+    <ClInclude Include="BCGKeyMapDlg.h" />
+    <ClInclude Include="BCGListCtrl.h" />
+    <ClInclude Include="bcglocalres.h" />
+    <ClInclude Include="BCGMainClientAreaWnd.h" />
+    <ClInclude Include="BCGMaskEdit.h" />
+    <ClInclude Include="BCGMDIChildWnd.h" />
+    <ClInclude Include="BCGMDIFrameWnd.h" />
+    <ClInclude Include="BCGMenuBar.h" />
+    <ClInclude Include="BCGMenuButton.h" />
+    <ClInclude Include="BCGMouseManager.h" />
+    <ClInclude Include="BCGMultiDocTemplate.h" />
+    <ClInclude Include="BCGOleDocIPFrameWnd.h" />
+    <ClInclude Include="BCGOleIPFrameWnd.h" />
+    <ClInclude Include="bcgoutlookbar.h" />
+    <ClInclude Include="BCGOutlookButton.h" />
+    <ClInclude Include="BCGPopupDlg.h" />
+    <ClInclude Include="BCGPopupMenu.h" />
+    <ClInclude Include="BCGPopupMenuBar.h" />
+    <ClInclude Include="BCGPopupWindow.h" />
+    <ClInclude Include="BCGPrintPreviewView.h" />
+    <ClInclude Include="BCGPropertyPage.h" />
+    <ClInclude Include="BCGPropertySheet.h" />
+    <ClInclude Include="BCGPropList.h" />
+    <ClInclude Include="BCGRegistry.h" />
+    <ClInclude Include="BCGSelectSkinDlg.h" />
+    <ClInclude Include="BCGShellList.h" />
+    <ClInclude Include="BCGShellManager.h" />
+    <ClInclude Include="BCGShellTree.h" />
+    <ClInclude Include="BCGShowAllButton.h" />
+    <ClInclude Include="BCGSizingControlBar.h" />
+    <ClInclude Include="BCGSkinEntry.h" />
+    <ClInclude Include="BCGSkinManager.h" />
+    <ClInclude Include="bcgsound.h" />
+    <ClInclude Include="BCGSpinButtonCtrl.h" />
+    <ClInclude Include="BCGSplitterWnd.h" />
+    <ClInclude Include="BCGStatusBar.h" />
+    <ClInclude Include="BCGTabView.h" />
+    <ClInclude Include="bcgtabwnd.h" />
+    <ClInclude Include="BCGTasksPane.h" />
+    <ClInclude Include="BCGTearOffManager.h" />
+    <ClInclude Include="BCGToolBar.h" />
+    <ClInclude Include="BCGToolbarButton.h" />
+    <ClInclude Include="BCGToolbarComboBoxButton.h" />
+    <ClInclude Include="BCGToolbarDateTimeCtrl.h" />
+    <ClInclude Include="BCGToolbarDropSource.h" />
+    <ClInclude Include="BCGToolbarDropTarget.h" />
+    <ClInclude Include="BCGToolbarEditBoxButton.h" />
+    <ClInclude Include="BCGToolbarFontCombo.h" />
+    <ClInclude Include="BCGToolBarImages.h" />
+    <ClInclude Include="BCGToolbarMenuButton.h" />
+    <ClInclude Include="BCGToolbarMenuButtonsButton.h" />
+    <ClInclude Include="BCGToolbarRegularMenuButton.h" />
+    <ClInclude Include="BCGToolbarSpinEditBoxButton.h" />
+    <ClInclude Include="BCGToolbarSystemMenuButton.h" />
+    <ClInclude Include="BCGToolsPage.h" />
+    <ClInclude Include="BCGURLLinkButton.h" />
+    <ClInclude Include="BCGUserTool.h" />
+    <ClInclude Include="BCGUserToolsManager.h" />
+    <ClInclude Include="BCGVisualManager.h" />
+    <ClInclude Include="BCGVisualManager2003.h" />
+    <ClInclude Include="BCGVisualManagerVS2005.h" />
+    <ClInclude Include="BCGVisualManagerXP.h" />
+    <ClInclude Include="BCGWindowsManagerDlg.h" />
+    <ClInclude Include="BCGWinXPVisualManager.h" />
+    <ClInclude Include="BCGWorkspace.h" />
+    <ClInclude Include="ButtonAppearanceDlg.h" />
+    <ClInclude Include="ButtonsList.h" />
+    <ClInclude Include="ButtonsTextList.h" />
+    <ClInclude Include="CBCGToolbarCustomize.h" />
+    <ClInclude Include="CBCGToolbarCustomizePages.h" />
+    <ClInclude Include="CmdUsageCount.h" />
+    <ClInclude Include="ColorPage1.h" />
+    <ClInclude Include="ColorPage2.h" />
+    <ClInclude Include="ColorPopup.h" />
+    <ClInclude Include="CustomizeButton.h" />
+    <ClInclude Include="GLOBALS.H" />
+    <ClInclude Include="ImageEditDlg.h" />
+    <ClInclude Include="ImageHash.h" />
+    <ClInclude Include="ImagePaintArea.h" />
+    <ClInclude Include="KeyAssign.h" />
+    <ClInclude Include="KeyboardPage.h" />
+    <ClInclude Include="KeyHelper.h" />
+    <ClInclude Include="MenuHash.h" />
+    <ClInclude Include="MenuImages.h" />
+    <ClInclude Include="MenuPage.h" />
+    <ClInclude Include="MousePage.h" />
+    <ClInclude Include="OptionsPage.h" />
+    <ClInclude Include="PowerColorPicker.h" />
+    <ClInclude Include="PropertySheetCtrl.h" />
+    <ClInclude Include="RebarState.h" />
+    <ClInclude Include="RegPath.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="ToolbarNameDlg.h" />
+    <ClInclude Include="TrackMouse.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\arrows.bmp" />
+    <Image Include="res\copy.bmp" />
+    <Image Include="res\delete.bmp" />
+    <Image Include="res\down.bmp" />
+    <Image Include="res\font.bmp" />
+    <Image Include="res\help.bmp" />
+    <Image Include="res\help.ico" />
+    <Image Include="res\mail.bmp" />
+    <Image Include="res\menuimg.bmp" />
+    <Image Include="res\new.bmp" />
+    <Image Include="res\palette.bmp" />
+    <Image Include="res\print.bmp" />
+    <Image Include="res\PrintPreview.bmp" />
+    <Image Include="res\taskpane.bmp" />
+    <Image Include="res\tool.ico" />
+    <Image Include="res\up.bmp" />
+    <Image Include="res\url.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\BCGControlBar.rc2" />
+    <None Include="res\color.cur" />
+    <None Include="res\copy.cur" />
+    <None Include="res\delete.cur" />
+    <None Include="res\ellipse.cur" />
+    <None Include="res\fill.cur" />
+    <None Include="res\hand.cur" />
+    <None Include="res\line.cur" />
+    <None Include="res\move.cur" />
+    <None Include="res\pen.cur" />
+    <None Include="res\rect.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

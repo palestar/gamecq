@@ -15,6 +15,10 @@
 //      are changed infrequently
 //
 
+#define CX_BORDER 1
+
+#define CY_BORDER 1
+
 #if !defined(AFX_STDAFX_H__EBD69F5A_C937_11D1_A647_00A0C93A70EC__INCLUDED_)
 #define AFX_STDAFX_H__EBD69F5A_C937_11D1_A647_00A0C93A70EC__INCLUDED_
 
@@ -25,9 +29,9 @@
 #define VC_EXTRALEAN		// Exclude rarely-used stuff from Windows headers
 
 #if _MSC_VER >= 1300
-	#define _WIN32_WINNT	0x0400
+	#define _WIN32_WINNT	0x0600
 #else
-	#define WINVER			0x0400
+	#define WINVER			0x0600
 #endif
 
 // Uncomment the following definitions to reduce the library size:

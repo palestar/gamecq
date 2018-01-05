@@ -133,7 +133,7 @@ public:
 		return m_uiDefMenuResId;
 	}
 
-	HMENU GetMenu () const
+	HMENU GetMenu ()
 	{
 		return m_hMenu;
 	}

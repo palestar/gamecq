@@ -2,7 +2,6 @@
 // Microsoft Visual C++ generated include file.
 // Used by GCQL.rc
 //
-#define IDR_RT_MANIFEST1                1
 #define IDD_ABOUTBOX                    100
 #define IDS_MAIN_TOOLBAR                101
 #define IDS_FRIEND_TOOLBAR              102

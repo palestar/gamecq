@@ -97,7 +97,7 @@ public:
 	};
 
 	BOOL m_bAutoDestroyParent;
-	HMENU GetMenu () const
+	HMENU GetMenu ()
 	{
 		return m_hMenu;
 	}

@@ -117,11 +117,12 @@ LRESULT CBCGMainClientAreaWnd::OnMDIRefreshMenu (WPARAM /*wp*/, LPARAM /*lp*/)
 {
 	LRESULT lRes = Default ();
 
-	CBCGMDIFrameWnd* pMainFrame = DYNAMIC_DOWNCAST (CBCGMDIFrameWnd, GetParentFrame ());
-	if (pMainFrame != NULL && pMainFrame->GetMenuBar () != NULL)
+	CBCGMDIFrameWnd* pMainFrame = DYNAMIC_DOWNCAST (CBCGMDIFrameWnd, GetParentFrame());
+	if (pMainFrame != NULL && pMainFrame->GetMenuBar() != NULL) 
 	{
-		pMainFrame->m_hmenuWindow = 
-			pMainFrame->GetWindowMenuPopup (pMainFrame->GetMenuBar ()->GetMenu ());
+
+		CBCGMenuBar *MenuBar = const_cast <CBCGMenuBar *>(pMainFrame->GetMenuBar());
+		pMainFrame->m_hmenuWindow = pMainFrame->GetWindowMenuPopup( MenuBar->GetMenu());
 	}
 
 	return lRes;

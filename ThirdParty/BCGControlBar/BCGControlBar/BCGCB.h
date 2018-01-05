@@ -63,10 +63,8 @@ BCGCONTROLBARDLLEXPORT void BCGControlBarDllInitialize ();
 	#define _BCGCB_LIBNAME_	_BCGCB_LIBNAME5_##"70.lib"
 #elif _MSC_VER < 1400
 	#define _BCGCB_LIBNAME_	_BCGCB_LIBNAME5_##"71.lib"
-#elif _MSC_VER == 1400
-	#define _BCGCB_LIBNAME_	_BCGCB_LIBNAME5_##"80.lib"
 #else
-	#error "Unsupported VC++ version"
+	#define _BCGCB_LIBNAME_	_BCGCB_LIBNAME5_##"80.lib"
 #endif
 
 #pragma comment(lib, _BCGCB_LIBNAME_)
