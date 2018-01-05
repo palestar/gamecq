@@ -480,6 +480,9 @@
     <None Include="..\ThirdParty\BCGControlBar\bin\BCGCB70080.dll">
       <Filter>BCGControlBar</Filter>
     </None>
+    <None Include="..\ThirdParty\BCGControlBar\bin\BCGCB70080D.dll">
+      <Filter>BCGControlBar</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Xml Include="AdminRights.xml" />
@@ -550,6 +553,9 @@
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\ThirdParty\BCGControlBar\bin\BCGCB70080.lib">
+      <Filter>BCGControlBar</Filter>
+    </Library>
+    <Library Include="..\ThirdParty\BCGControlBar\bin\BCGCB70080D.lib">
       <Filter>BCGControlBar</Filter>
     </Library>
   </ItemGroup>

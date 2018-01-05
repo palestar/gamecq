@@ -1710,7 +1710,7 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="..\ThirdParty\BCGControlBar\Bin\BCGCB700D80.dll"
+				RelativePath="..\ThirdParty\BCGControlBar\Bin\BCGCB70080D.dll"
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
@@ -1735,7 +1735,7 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="..\ThirdParty\BCGControlBar\Bin\BCGCB700D80.lib"
+				RelativePath="..\ThirdParty\BCGControlBar\Bin\BCGCB70080D.lib"
 				>
 				<FileConfiguration
 					Name="Release|Win32"

@@ -43,28 +43,28 @@ BCGCONTROLBARDLLEXPORT void BCGControlBarDllInitialize ();
 	#define _BCGCB_LIBNAME3_	_BCGCB_LIBNAME2_
 #endif
 
-#ifdef _DEBUG
-	#define _BCGCB_LIBNAME4_	_BCGCB_LIBNAME3_##"D"
+#if defined _AFXDLL && !defined _BCGCONTROLBAR_STATIC_
+	#define _BCGCB_LIBNAME4_	_BCGCB_LIBNAME3_
+#elif defined _BCGCONTROLBAR_STATIC_
+	#define _BCGCB_LIBNAME4_	_BCGCB_LIBNAME3_##"s"
 #else
 	#define _BCGCB_LIBNAME4_	_BCGCB_LIBNAME3_
 #endif
 
-#if defined _AFXDLL && !defined _BCGCONTROLBAR_STATIC_
-	#define _BCGCB_LIBNAME5_	_BCGCB_LIBNAME4_
-#elif defined _BCGCONTROLBAR_STATIC_
-	#define _BCGCB_LIBNAME5_	_BCGCB_LIBNAME4_##"s"
+#if _MSC_VER < 1300
+	#define _BCGCB_LIBNAME5_	_BCGCB_LIBNAME4_##""
+#elif _MSC_VER == 1300
+	#define _BCGCB_LIBNAME5_	_BCGCB_LIBNAME4_##"70"
+#elif _MSC_VER < 1400
+	#define _BCGCB_LIBNAME5_	_BCGCB_LIBNAME4_##"71"
 #else
-	#define _BCGCB_LIBNAME5_	_BCGCB_LIBNAME4_
+	#define _BCGCB_LIBNAME5_	_BCGCB_LIBNAME4_##"80"
 #endif
 
-#if _MSC_VER < 1300
-	#define _BCGCB_LIBNAME_	_BCGCB_LIBNAME5_##".lib"
-#elif _MSC_VER == 1300
-	#define _BCGCB_LIBNAME_	_BCGCB_LIBNAME5_##"70.lib"
-#elif _MSC_VER < 1400
-	#define _BCGCB_LIBNAME_	_BCGCB_LIBNAME5_##"71.lib"
+#ifdef _DEBUG
+#define _BCGCB_LIBNAME_	_BCGCB_LIBNAME5_##"D.lib"
 #else
-	#define _BCGCB_LIBNAME_	_BCGCB_LIBNAME5_##"80.lib"
+#define _BCGCB_LIBNAME_	_BCGCB_LIBNAME5_##".lib"
 #endif
 
 #pragma comment(lib, _BCGCB_LIBNAME_)

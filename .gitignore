@@ -22,3 +22,4 @@ Service/NTServiceEventLogMsg.rc
 *.tlog
 *.lib
 UpgradeLog.htm
+unsuccessfulbuild

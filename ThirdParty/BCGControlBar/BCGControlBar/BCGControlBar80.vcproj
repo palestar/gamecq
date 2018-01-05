@@ -72,13 +72,13 @@
 				Name="VCLinkerTool"
 				AdditionalOptions="/MACHINE:I386"
 				AdditionalDependencies="winmm.lib"
-				OutputFile="..\bin/BCGCB700D80.dll"
+				OutputFile="..\bin\BCGCB70080D.dll"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile=".\..\bin/BCGCB700D80.pdb"
+				ProgramDatabaseFile=".\..\bin/BCGCB70080D.pdb"
 				SubSystem="2"
-				ImportLibrary=".\..\bin/BCGCB700D80.lib"
+				ImportLibrary=".\..\bin\BCGCB70080D.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
