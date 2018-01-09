@@ -324,7 +324,7 @@ static bool UpdateFiles( const char * path )
 		Log( "Looking for Registry Key %s", sRegKeyValue );
 
 		HKEY hKey;
-		if ( RegCreateKeyEx( HKEY_LOCAL_MACHINE, sRegKeyValue, 0, NULL, 0, KEY_ALL_ACCESS, NULL, &hKey, NULL ) != ERROR_SUCCESS )
+		if ( RegCreateKeyEx(IsUserAnAdmin() ? HKEY_LOCAL_MACHINE : HKEY_CURRENT_USER, sRegKeyValue, 0, NULL, 0, KEY_ALL_ACCESS, NULL, &hKey, NULL ) != ERROR_SUCCESS )
 		{
 			MessageBox( NULL, "Error: Failed to open registry!", "SmartUpdate", MB_OK );
 			exit( -1 );
