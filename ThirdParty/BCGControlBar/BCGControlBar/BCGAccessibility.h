@@ -43,7 +43,7 @@ struct BCGACC_PROPINFO
 	CString m_strValue;
 };
 
-typedef enum BCG_ACC_TYPE
+enum BCG_ACC_TYPE
 {
 		ACC_POPUPMENU	= 1,
 		ACC_TASKPANE	= 2,

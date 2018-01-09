@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{85321dee-5592-481f-b95a-d3c06af1188c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2a1189a6-6664-4da8-8268-64558b360991}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{45da33b7-dd14-4612-894e-4665f3360abd}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="BCGControlBar">
+      <UniqueIdentifier>{ef37ffc9-0463-463f-9f07-400a7dae6bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skins">
+      <UniqueIdentifier>{f6a2c22e-a1a0-4fc5-a202-4090901bcec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{bd391f35-03f8-436e-997f-cdbeb2ef0938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{71504a53-692b-4328-b5da-dc8805de7f7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CacheFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CacheList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptionBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeEmail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangePassword.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="colorbtn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateRoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditEmotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Eula.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCQL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCQLDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCQStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ignores.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewLogin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsColors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsEmots.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PWCipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResizingDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RichText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomPassword.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpamBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tfxdatatip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WebFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WebView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CacheFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CacheList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptionBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeEmail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangePassword.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="colorbtn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateRoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditEmotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Eula.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GCQL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GCQLDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GCQStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ignores.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewLogin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsEmots.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PWCipher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResizingDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RichText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomPassword.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpamBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tfxdatatip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WebFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WebView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Avatar.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\avatar1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\avatar_a.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\avatar_d.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\avatar_m.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\avatar_sub.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00004.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cancel.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\caption1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\clan.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\clans.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\down.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\friend.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\friend_o.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\friends.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\game.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\game1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\game2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\gamebar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\gamebar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\gamebar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\games.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\games1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\GCQL.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\GCQLDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00002.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00003.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00004.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00005.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00006.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ingame.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\message.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\online1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\right.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\room.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rooms.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ToolbarCold256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\up.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\chat01.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\friend_alert.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\hover01.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\message01.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="colorbtn.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="GCQL.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\empty_ht.htm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GCQL.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="GCQL.clw" />
+    <None Include="GCQL.reg" />
+    <None Include="..\ThirdParty\BCGControlBar\bin\BCGCB70080.dll">
+      <Filter>BCGControlBar</Filter>
+    </None>
+    <None Include="..\ThirdParty\BCGControlBar\bin\BCGCB70080D.dll">
+      <Filter>BCGControlBar</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="AdminRights.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Eula.txt" />
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\caption.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\GCQL.exe.manifest">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Skins\Blue.skn">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Xml\CacheConfig.xml">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Skins\Default.skn">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Skins\Green.skn">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Skins\Red.skn">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Skins\Steel.skn">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WordFilter.txt">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Medusa\Bin\GCQ.dll">
+      <Filter>Libs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Medusa\Bin\GCQD.dll">
+      <Filter>Libs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Medusa\Bin\Medusa.dll">
+      <Filter>Libs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Medusa\Bin\MedusaD.dll">
+      <Filter>Libs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Medusa\Bin\Network.dll">
+      <Filter>Libs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Medusa\Bin\NetworkD.dll">
+      <Filter>Libs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Medusa\Bin\SelfUpdate.dll">
+      <Filter>Libs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Medusa\Bin\SelfUpdateD.dll">
+      <Filter>Libs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ThirdParty\tinyxml\lib\tinyxml.lib">
+      <Filter>Libs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ThirdParty\tinyxml\lib\tinyxmlD.lib">
+      <Filter>Libs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="config.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\ThirdParty\BCGControlBar\bin\BCGCB70080.lib">
+      <Filter>BCGControlBar</Filter>
+    </Library>
+    <Library Include="..\ThirdParty\BCGControlBar\bin\BCGCB70080D.lib">
+      <Filter>BCGControlBar</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

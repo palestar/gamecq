@@ -32,7 +32,7 @@ private:
 		bool			muted;		// user currently muted ?
 	};
 	
-	static class CSpamCheck
+	class CSpamCheck
 	{
 	public:
 		static bool check( SpamContext * sc, String text );	// checks each line sent by the user, returns false if the user appears to be spamming

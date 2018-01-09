@@ -22,7 +22,7 @@
 #include "BCGWorkspace.h"
 #include "BCGTasksPane.h"
 #include "BCGToolbarMenuButton.h"
-#include "winable.h"
+#include "winuser.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

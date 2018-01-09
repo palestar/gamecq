@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{51f985d7-ffe3-4fb1-b47b-f78774ffec0b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{296c09c6-7e05-473c-87bb-4d0392e14157}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="DLL">
+      <UniqueIdentifier>{118cc2e9-9cb4-45dc-8a2b-b9f8597a7de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TXT">
+      <UniqueIdentifier>{2be8dd30-51fe-46f0-9541-4687c71b98fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INI">
+      <UniqueIdentifier>{1c79ab58-6b93-4a71-83ff-260142389558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AIML">
+      <UniqueIdentifier>{0e2ff007-4ed4-47ee-b558-2d8396111e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{825a7f8e-c6f2-44d1-97e4-0cd34b260daf}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChatLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EmoteResponder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpBot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResponseControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartSend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChatLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EmoteResponder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpBot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageLoop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResponseControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartSend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bot\bot.ini">
+      <Filter>INI</Filter>
+    </None>
+    <None Include="Bot\bf_activate.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_anygood.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_beta.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_bomb.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_cost.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_coupon.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_ead.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_emotes.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_engineer.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_fontcolor.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_howplay.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_joinfleet.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_joining_beta.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_josef.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_jumpgate.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_manual.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_metaverse.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_missions.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_mod.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_namechange.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_payment.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_prestige.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_ranks.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_rules_of_conduct.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_screenshot.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_shipyard.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_template.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_usecoupon.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_validate.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\bf_wormhole.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\c.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\data1.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\gamegeneric.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="Bot\star.aiml">
+      <Filter>AIML</Filter>
+    </None>
+    <None Include="HelpBot.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Bot\emotes.txt">
+      <Filter>TXT</Filter>
+    </Text>
+    <Text Include="Bot\localuser.txt">
+      <Filter>TXT</Filter>
+    </Text>
+    <Text Include="Bot\patterns.txt">
+      <Filter>TXT</Filter>
+    </Text>
+    <Text Include="Bot\person.txt">
+      <Filter>TXT</Filter>
+    </Text>
+    <Text Include="Bot\person2.txt">
+      <Filter>TXT</Filter>
+    </Text>
+    <Text Include="Bot\personf.txt">
+      <Filter>TXT</Filter>
+    </Text>
+    <Text Include="Bot\skeleton.txt">
+      <Filter>TXT</Filter>
+    </Text>
+    <Text Include="Bot\substitute.txt">
+      <Filter>TXT</Filter>
+    </Text>
+    <Text Include="Bot\templates.txt">
+      <Filter>TXT</Filter>
+    </Text>
+    <Text Include="Bot\unsorted.txt">
+      <Filter>TXT</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Bot\AimlBot.dll">
+      <Filter>DLL</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

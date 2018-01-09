@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugLinux|Win32">
+      <Configuration>DebugLinux</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseLinux|Win32">
+      <Configuration>ReleaseLinux</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5980A896-5555-4A72-B90C-5CCB71DC8E74}</ProjectGuid>
+    <RootNamespace>MetaServer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseLinux|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugLinux|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseLinux|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugLinux|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.27130.2010</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\Bin\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\Bin\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugLinux|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseLinux|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\Bin/MetaServer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>../../Medusa;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/MetaServer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../Bin;../../Medusa/Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\Bin/MetaServer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../Medusa;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/MetaServer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName)D.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../Bin;../../Medusa/Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName)D.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(TargetName)D.map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ProfileGuidedDatabase>$(OutDir)$(TargetName)D.pgd</ProfileGuidedDatabase>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugLinux|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\Bin/MetaServer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../Medusa;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/MetaServer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName)D.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../Bin;../../Medusa/Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseLinux|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\Bin/MetaServer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>../../Medusa;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/MetaServer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../Bin;../../Medusa/Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="MetaServer.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='DebugLinux|Win32'">Disabled</Optimization>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='DebugLinux|Win32'">EnableFastChecks</BasicRuntimeChecks>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Disabled</Optimization>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">EnableFastChecks</BasicRuntimeChecks>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='ReleaseLinux|Win32'">MaxSpeed</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DebugMetaServer.ini" />
+    <None Include="makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="MetaServer.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="WinGDB.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\medusa\GCQ\GCQ.vcxproj">
+      <Project>{6276a121-5951-40d4-b2ed-0325573e8055}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Medusa\Medusa\Medusa.vcxproj">
+      <Project>{93ad8e65-fb3a-414d-ba0b-6e8ffddb6cab}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\medusa\Network\Network.vcxproj">
+      <Project>{1e5779fc-265e-4331-aaad-79aafd688da4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\GCQDB\GCQDB.vcxproj">
+      <Project>{7284ea97-94fa-4ebd-aad9-2310fbdfb950}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Gcqs\GCQS.vcxproj">
+      <Project>{ee2769fc-9d30-429c-a923-2f366fce93ee}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_selTargetType="0" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strDebugHostLogin="builder:god2899@build:2200" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strMakefileCFLAGS="-g -O2 -I ../../Medusa/ -I ../" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strMakefileCompilerC="gcc" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strMakefileCompilerC="gcc" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strMakefileIntDir="ReleaseLinux/obj" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_bDeployBeforeStartDebugging="false" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_bDisableHangReporter="false" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_bReuseStandardBuildCommand="true" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_pathDebugger="gdb" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_selBuildBeforeStartDebugging="0" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strBuildHostLogin="builder:god2899@build:2200" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_bReuseStandardBuildCommand="true" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strRemoteBuildVariables="BUILD_CONFIGURATION=&quot;ReleaseLinux&quot;" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strRemoteBuildCommand="make" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strBuildHostLogin="builder:god2899@build:2200" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_selDeployAction="1" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_selTargetType="0" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strRemoteRebuildCommand="make clean; make" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strMakefileRM="rm -f" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strMakefileLDFLAGS="-L ../Bin/ -L ../../Medusa/Bin/ -L ../ThirdParty/mysql/x86-Linux/lib/ -lMedusaD -lGCQSD -lGCQDBD -lpthread -ldl -lmysqlclient -lNetworkD -lGCQD" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strRemoteCleanCommand="make clean" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_bStopInMain="true" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strMakefileDestDir="../Bin" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strMakefileMKDIR="mkdir -p" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strRemoteBuildVariables="BUILD_CONFIGURATION=&quot;DebugLinux&quot;" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strRemoteCleanCommand="make clean" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_pathRemoteBuildDirectory="/home/builder/work/Trunk/GameCQ/MetaServer" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strRemoteRebuildCommand="make clean; make" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_pathRemoteBuildDirectory="/home/builder/work/Trunk/GameCQ/MetaServer" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_bDeployBeforeStartDebugging="false" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_selByteOrder="1" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strDebugHostLogin="builder:god2899@build:2200" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_selDeployAction="1" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_bDeployOnlyIfFileChanged="false" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_pathDebugger="gdb" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_bDeployOnlyIfFileChanged="false" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strMakefileCXXFLAGS="-g -O2 -I ../../Medusa/ -I ../" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strMakefileCompilerCXX="g++" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strRemoteBuildCommand="make" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strMakefileCXXFLAGS="-g -I ../../Medusa/ -I ../" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_pathExecutable="/home/builder/work/Trunk/GameCQ/Bin/MetaServer" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_bDisableHangReporter="false" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_pathExecutable="/home/builder/work/Trunk/GameCQ/Bin/MetaServerD" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strMakefileMKDIR="mkdir -p" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_bSourceSession="false" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strMakefileDestDir="../Bin" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strMakefileLDFLAGS="-L ../Bin/ -L ../../Medusa/Bin/ -L ../ThirdParty/mysql/x86-Linux/lib/ -lMedusa -lGCQS -lGCQDB -lpthread -ldl -lmysqlclient -lNetwork -lGCQ" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_bSourceSession="false" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_selByteOrder="1" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strMakefileIntDir="DebugLinux/obj" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_bStopInMain="true" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_selBuildBeforeStartDebugging="0" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strMakefileCompilerCXX="g++" WinGDB_y5ae2_7c6uwsyqFE-lN4Bg_strMakefileRM="rm -f" WinGDB_Q2OnqQD6oGCRz0_kaDwI0w_strMakefileCFLAGS="-g -I ../../Medusa/ -I ../" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
