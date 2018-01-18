@@ -23,7 +23,7 @@
 #define __NTSERVICEEVENTLOGMSG_H__
 
 //
-//  Values are 32 bit values layed out as follows:
+//  Values are 32 bit values laid out as follows:
 //
 //   3 3 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1
 //   1 0 9 8 7 6 5 4 3 2 1 0 9 8 7 6 5 4 3 2 1 0 9 8 7 6 5 4 3 2 1 0
@@ -56,9 +56,9 @@
 //
 // Define the severity codes
 //
-#define STATUS_SEVERITY_WARNING          0x2
 #define STATUS_SEVERITY_SUCCESS          0x0
 #define STATUS_SEVERITY_INFORMATIONAL    0x1
+#define STATUS_SEVERITY_WARNING          0x2
 #define STATUS_SEVERITY_ERROR            0x3
 
 
@@ -67,7 +67,7 @@
 //
 // MessageText:
 //
-//  %1
+// %1
 //
 #define MSG_INFO_1                       ((DWORD)0x40000000L)
 
@@ -76,7 +76,7 @@
 //
 // MessageText:
 //
-//  %1
+// %1
 //
 #define MSG_WARNING_1                    ((DWORD)0x80000001L)
 
@@ -85,7 +85,7 @@
 //
 // MessageText:
 //
-//  %1
+// %1
 //
 #define MSG_ERROR_1                      ((DWORD)0xC0000002L)
 
@@ -94,7 +94,7 @@
 //
 // MessageText:
 //
-//  %1
+// %1
 //
 #define MSG_SUCCESS_1                    ((DWORD)0x00000003L)
 

@@ -643,6 +643,18 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+     <CustomBuild Include="..\ThirdParty\BCGControlBar\bin\BCGCB70080.dll">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy %(FullPath) $(OutDir)</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy %(FullPath) $(OutDir)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+    </CustomBuild>
+	 <CustomBuild Include="..\ThirdParty\BCGControlBar\bin\BCGCB70080D.dll">
+	  <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy %(FullPath) $(OutDir)</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy %(FullPath) $(OutDir)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+	</CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\..\medusa\GCQ\GCQ.vcxproj">
       <Project>{6276a121-5951-40d4-b2ed-0325573e8055}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
