@@ -9,17 +9,11 @@
       <UniqueIdentifier>{37083661-7091-4faa-986c-88158e7e441d}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
-    <Filter Include="PDH">
-      <UniqueIdentifier>{f59a9994-32d6-4139-bd5a-1538ff37083d}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Libs">
       <UniqueIdentifier>{b3175986-165c-4ef8-98e9-2a6e8d28a02c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="perfmon.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ProcessServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -37,14 +31,6 @@
     <None Include="..\Scripts\ProcessServerCron.sh" />
   </ItemGroup>
   <ItemGroup>
-    <Library Include="PDH.LIB">
-      <Filter>PDH</Filter>
-    </Library>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="pdh.dll">
-      <Filter>PDH</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\..\Medusa\Bin\Medusa.dll">
       <Filter>Libs</Filter>
     </CustomBuild>

@@ -86,8 +86,6 @@ static bool localUpdate( const char * pDest, const char * pSrc )
 
 #if defined(_WIN32)
 
-#include "perfmon.h"
-
 class MyProcessServer : public ProcessServer
 {
 public:
@@ -110,24 +108,11 @@ public:
 	{
 		if (! ProcessServer::start( context ) )
 			return false;
-
-		if ( m_pm.Initialize() )
-		{
-			m_nCpuIndex = m_pm.AddCounter( CNTR_CPU );
-			m_nMemoryIndex = m_pm.AddCounter( CNTR_MEMINUSE_PERCENT );
-		}
-		else
-			LOG_ERROR( "ProcessServer", "Failed to initialize performance monitor!" );
-
 		return true;
 	}
 
 	void updatePerformanceMonitor()
-	{
-		m_pm.CollectQueryData();
-		m_nCpuUsage = m_pm.GetCounterValue( m_nCpuIndex );
-		m_nMemoryUsage = m_pm.GetCounterValue( m_nMemoryIndex );
-	}
+	{}
 
 	void sendChat( const char * pChat )
 	{
@@ -137,7 +122,6 @@ public:
 
 protected:
 	// Data
-	CPerfMon	m_pm;
 	int			m_nCpuIndex, m_nCpuUsage;
 	int			m_nMemoryIndex, m_nMemoryUsage;
 	dword		m_nLastPM;
