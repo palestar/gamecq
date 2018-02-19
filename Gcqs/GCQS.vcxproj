@@ -346,6 +346,9 @@
       <Project>{1e5779fc-265e-4331-aaad-79aafd688da4}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\GCQDB\GCQDB.vcxproj">
+      <Project>{7284ea97-94fa-4ebd-aad9-2310fbdfb950}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

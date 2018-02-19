@@ -926,7 +926,11 @@ void ProcessServer::updateDemon()
 					{
 						proc.flags &= ~ProcessClient::PF_RUNNING;
 
-						if ( ! m_Shutdown )
+						// if this process is flagged run once, then re-disable this process now..
+						if ( (proc.flags & ProcessClient::PF_RUNONCE) != 0 )
+							proc.flags |= ProcessClient::PF_DISABLED;
+
+						if ( (proc.flags & ProcessClient::PF_DISABLED) == 0 && !m_Shutdown )
 						{
 							if ( info.m_nRestartTime != 0 && Time::seconds() < info.m_nRestartTime )
 								continue;		// not time to restart yet, continue onto the next process..
@@ -1104,6 +1108,11 @@ bool ProcessServer::loadProcessList()
 			if ( pf.get( CharString().format("ProcessDisabled%d", i), (dword)1 ) != 0 )
 				process.flags |= ProcessClient::PF_DISABLED;
 		}
+
+		// if the process is flagged as run once, then make sure the disabled flag is on so it doesn't
+		// start automatically
+		if (process.flags & ProcessClient::PF_RUNONCE)
+			process.flags |= ProcessClient::PF_DISABLED;
 
 		m_ProcessList.push( process );
 	}
