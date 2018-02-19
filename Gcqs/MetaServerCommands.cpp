@@ -1146,6 +1146,13 @@ void MetaServer::processCommand( dword client, dword roomId, dword recpId, const
 																		
 									info += CharString().format("%s - Name: '%s', UserId: %u, LoginTime: %s, Remote IP: %s, Proxy IP: %s, Machine ID: %s\n", 
 										machineId.length() > 0 ? "GCQL":"Forum" ,who.cstr(), userId, Time::format( startTime, "%c" ).cstr(), remoteIP.cstr(), proxyIP.cstr(), machineId.cstr() );
+
+									// prevent info string getting too big and crashing client on send...
+									if (i % 20 == 0)
+									{
+										sendChat(client, info);
+										info.empty();
+									}
 								}
 
 							Database::Query offclones( pDB->query( CharString().format("SELECT DISTINCT us.user_id, us.username, us.last_login, us.last_ip, us.last_mid "
@@ -1165,6 +1172,13 @@ void MetaServer::processCommand( dword client, dword roomId, dword recpId, const
 									
 									info += CharString().format("Name: '%s', UserId: %u, Last login: %s, IP: %s, Machine ID: %s\n", 
 										userName.cstr(), userId, Time::format( lastTime, "%c" ).cstr(), remoteIP.cstr(), machineId.cstr() );
+
+									// prevent info string getting too big and crashing client on send...
+									if (i % 20 == 0)
+									{
+										sendChat(client, info);
+										info.empty();
+									}
 								}
 							}
 
@@ -1212,6 +1226,13 @@ void MetaServer::processCommand( dword client, dword roomId, dword recpId, const
 											
 										info += CharString().format("%s - Name: '%s', UserId: %u, LoginTime: %s, Remote IP: %s, Proxy IP: %s, Machine ID: %s\n", 
 											machineId.length() > 0 ? "GCQL":"Forum" ,who.cstr(), userId, Time::format( startTime, "%c" ).cstr(), remoteIP.cstr(), proxyIP.cstr(), machineId.cstr() );
+
+										// prevent info string getting too big and crashing client on send...
+										if (i % 20 == 0)
+										{
+											sendChat(client, info);
+											info.empty();
+										}
 									}
 								}
 										
@@ -1232,6 +1253,13 @@ void MetaServer::processCommand( dword client, dword roomId, dword recpId, const
 										
 										info += CharString().format("Name: '%s', UserId: %u, Last login: %s, IP: %s, Machine ID: %s\n", 
 											userName.cstr(), userId, Time::format( lastTime, "%c" ).cstr(), remoteIP.cstr(), machineId.cstr() );
+
+										// prevent info string getting too big and crashing client on send...
+										if (i % 20 == 0)
+										{
+											sendChat(client, info);
+											info.empty();
+										}
 									}
 								}
 										
