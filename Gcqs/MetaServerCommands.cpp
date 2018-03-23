@@ -1151,7 +1151,7 @@ void MetaServer::processCommand( dword client, dword roomId, dword recpId, const
 									if (i % 20 == 0)
 									{
 										sendChat(client, info);
-										info.empty();
+										info = "/";
 									}
 								}
 
@@ -1177,7 +1177,7 @@ void MetaServer::processCommand( dword client, dword roomId, dword recpId, const
 									if (i % 20 == 0)
 									{
 										sendChat(client, info);
-										info.empty();
+										info = "/";
 									}
 								}
 							}
@@ -1231,7 +1231,7 @@ void MetaServer::processCommand( dword client, dword roomId, dword recpId, const
 										if (i % 20 == 0)
 										{
 											sendChat(client, info);
-											info.empty();
+											info = "/";
 										}
 									}
 								}
@@ -1258,7 +1258,7 @@ void MetaServer::processCommand( dword client, dword roomId, dword recpId, const
 										if (i % 20 == 0)
 										{
 											sendChat(client, info);
-											info.empty();
+											info = "/";
 										}
 									}
 								}
