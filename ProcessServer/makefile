@@ -36,7 +36,7 @@ CC= gcc
 CXX= g++
 AR= ar
 CFLAGS= -g -I ../../Medusa/ -I ../
-CXXFLAGS= -g -I ../../Medusa/ -I ../
+CXXFLAGS= -g -std=c++0x -I ../../Medusa/ -I ../
 ARFLAGS= cru
 LDFLAGS= -L ../Bin/ -L ../../Medusa/Bin/ -L ../ThirdParty/mysql/x86-Linux/lib/ -lMedusaD -lGCQSD -lGCQDBD -lpthread -ldl -lmysqlclient -lNetworkD -lGCQD
 RESULT=ProcessServerD
@@ -61,7 +61,7 @@ CC= gcc
 CXX= g++
 AR= ar
 CFLAGS= -g -O2 -I ../../Medusa/ -I ../
-CXXFLAGS= -g -O2 -I ../../Medusa/ -I ../
+CXXFLAGS= -g -std=c++0x -O2 -I ../../Medusa/ -I ../
 ARFLAGS= cru
 LDFLAGS= -L ../Bin/ -L ../../Medusa/Bin/ -L ../ThirdParty/mysql/x86-Linux/lib/ -lMedusa -lGCQS -lGCQDB -lpthread -ldl -lmysqlclient -lNetwork -lGCQ
 RESULT=ProcessServer
