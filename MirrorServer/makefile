@@ -36,7 +36,7 @@ CC= gcc
 CXX= g++
 AR= ar
 CFLAGS= -g -I ../../Medusa/ -I ../
-CXXFLAGS= -g -std=c++0x -I ../../Medusa/ -I ../
+CXXFLAGS= -g -I ../../Medusa/ -I ../
 ARFLAGS= cru
 LDFLAGS= -L ../Bin/ -L ../../Medusa/Bin/ -lMedusaD -lNetworkD -lGCQD -lpthread -ldl
 RESULT=MirrorServerD
@@ -61,7 +61,7 @@ CC= gcc
 CXX= g++
 AR= ar
 CFLAGS= -g -O2 -I ../../Medusa/ -I ../
-CXXFLAGS= -g -std=c++0x -O2 -I ../../Medusa/ -I ../
+CXXFLAGS= -g -O2 -I ../../Medusa/ -I ../
 ARFLAGS= cru
 LDFLAGS= -L ../Bin/ -L ../../Medusa/Bin/ -lMedusa -lNetwork -lGCQ -lpthread -ldl
 RESULT=MirrorServer
