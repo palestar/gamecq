@@ -343,6 +343,8 @@ int main( int argc, char ** argv )
 #if !defined(_DEBUG)
 		if ( bRemoteUpdate && nNextUpdateCheck < Time::seconds() )
 		{
+			LOG_STATUS("ProcessServer", "Checking for remote updates.");
+
 			// check for new code update
 			MirrorClient mirrorClient;
 			if ( mirrorClient.open( 
@@ -357,6 +359,8 @@ int main( int argc, char ** argv )
 				if ( nCRC != nLastCRC )
 				{
 					nLastCRC = nCRC;
+
+					LOG_STATUS("ProcessServer", "Synchronizing updates.");
 
 					dword nJobID = mirrorClient.syncronize();
 					if ( nJobID != 0 && mirrorClient.waitJob( nJobID, 86400 * 1000 ) )
