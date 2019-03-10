@@ -64,6 +64,7 @@
 #include <tchar.h>
 #include <stdio.h>
 #include <crtdbg.h>
+#include <VersionHelpers.h>
 
 #include <io.h>			//!! TCW MOD
 #include <fcntl.h>		//!! TCW MOD
@@ -118,11 +119,6 @@ CNTService :: CNTService( LPCTSTR lpServiceName, LPCTSTR lpDisplayName )
 {
 	_ASSERTE( ! m_bInstance );
 
-	OSVERSIONINFO vi;
-	vi.dwOSVersionInfoSize=sizeof(vi);  // init this.
-	GetVersionEx(&vi);      //lint !e534
-	m_bWinNT = (vi.dwPlatformId == VER_PLATFORM_WIN32_NT);
-
 	m_bInstance = TRUE;
 	gpTheService = this;
 	
@@ -130,7 +126,7 @@ CNTService :: CNTService( LPCTSTR lpServiceName, LPCTSTR lpDisplayName )
 	m_ssStatus.dwServiceType = SERVICE_WIN32_OWN_PROCESS;
 	m_ssStatus.dwServiceSpecificExitCode = 0;
 
-	if( m_bWinNT ) {
+	if(IsWindowsXPOrGreater()) {
 		/////////////////////////////////////////////////////////////////////////
 		// Providing a SID (security identifier) was contributed by Victor
 		// Vogelpoel (VictorV@Telic.nl).

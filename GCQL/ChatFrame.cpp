@@ -668,7 +668,7 @@ BOOL CChatFrame::OnShowPopupMenu (CBCGPopupMenu* pMenuPopup)
 				stMenu.AppendMenu( MF_STRING, ID_STAFF_MSG_BEGIN + i, _T("Message") );
 
 				bool bInserted = false;
-				for(unsigned int j=0;j<staffMenu.GetMenuItemCount() && !bInserted;j++)
+				for(int j=0;j<staffMenu.GetMenuItemCount() && !bInserted;j++)
 				{
 					CString sCompare;
 					staffMenu.GetMenuString( j, sCompare, MF_BYPOSITION );

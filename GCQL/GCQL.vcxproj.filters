@@ -13,9 +13,6 @@
       <UniqueIdentifier>{45da33b7-dd14-4612-894e-4665f3360abd}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
-    <Filter Include="BCGControlBar">
-      <UniqueIdentifier>{ef37ffc9-0463-463f-9f07-400a7dae6bff}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Skins">
       <UniqueIdentifier>{f6a2c22e-a1a0-4fc5-a202-4090901bcec6}</UniqueIdentifier>
     </Filter>
@@ -477,12 +474,6 @@
     </None>
     <None Include="GCQL.clw" />
     <None Include="GCQL.reg" />
-    <None Include="..\ThirdParty\BCGControlBar\bin\BCGCB70080.dll">
-      <Filter>BCGControlBar</Filter>
-    </None>
-    <None Include="..\ThirdParty\BCGControlBar\bin\BCGCB70080D.dll">
-      <Filter>BCGControlBar</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Xml Include="AdminRights.xml" />
@@ -550,13 +541,5 @@
       <Filter>Libs</Filter>
     </CustomBuild>
     <CustomBuild Include="config.ini" />
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="..\ThirdParty\BCGControlBar\bin\BCGCB70080.lib">
-      <Filter>BCGControlBar</Filter>
-    </Library>
-    <Library Include="..\ThirdParty\BCGControlBar\bin\BCGCB70080D.lib">
-      <Filter>BCGControlBar</Filter>
-    </Library>
   </ItemGroup>
 </Project>
