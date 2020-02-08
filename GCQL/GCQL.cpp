@@ -925,5 +925,5 @@ void CGCQLApp::OnViewFAQ()
 void CGCQLApp::OnViewSupport()
 {
 	((CMainFrame *)m_pMainWnd)->SetActiveTab( CMainFrame::TAB_BROWSE );
-	CGCQLApp::openURL( "http://www.darkspace.net/index.htm?lang=en&module=document.php&doc_id=5" );
+	CGCQLApp::openURL( "http://www.darkspace.net/?lang=en&module=document.php&doc_id=5" );
 }
